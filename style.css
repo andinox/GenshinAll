@@ -522,6 +522,62 @@ header {
 }
 
 
+.left {
+    margin: auto;
+    position: absolute;
+    background-image: url(./image/gauche.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 11;
+    top: 85vh;
+    right: -26vw;
+    transform: translate(-70vh,-10vw);
+    height: 10vh;
+    width: 3vw;
+    opacity: 50%;
+}
+.left:hover {
+    opacity: 100%;
+}
+
+.right {
+    margin: auto;
+    position: absolute;
+    background-image: url(./image/droite.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 11;
+    top: 85vh;
+    right: -26vw;
+    transform: translate(-70vh,-10vw);
+    height: 10vh;
+    width: 3vw;
+    opacity: 50%;
+}
+
+.right:hover {
+    opacity: 100%;
+}
+
+#img_elem {
+    position: absolute;
+    user-select: none;
+    transform: scale(0.75) translate(-50vh,-50vw);
+    opacity: 15%;
+    top: 75vh;
+    left: 28vw;
+}
+
+.title_assen {
+    font-family:optimus;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    padding-left: 15px;
+    bottom: 0%;
+    user-select: none;
+    
+}
 
 .none {
     display: none;

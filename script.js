@@ -1,11 +1,12 @@
 window.onload = perso_display;
 let data;
-window.addEventListener("DOMContentLoaded", (event) => {
+
+function loaded() {
     loader = document.getElementById("inwait");
     loader.classList.add("none");
     body = document.getElementsByTagName("body")[0];
     body.classList.remove("blur");
-});
+}
 
 
 const colorSelect = document.getElementsByClassName("colorSelect")[0];
@@ -101,6 +102,18 @@ function perso_display() {
 }
 
 
+function getElement(pseudo) {
+    let element = ["geo","electro","anemo","feu","glace","eau"];
+    for (let i = 0; i < element.length ; i++) {
+        for (let u = 0; u < data["elements"][element[i]].length ; u++) {
+            if (data["elements"][element[i]][u] == pseudo) {
+                return element[i];
+            }
+        }
+    }
+    
+}
+
 
 
 
@@ -185,10 +198,23 @@ function newA() {
                 body.append(div_art);
                 let div_elev_perso = document.createElement("div");
                 div_elev_perso.classList.add("elev_p");
+                const element = getElement(perso_name);
+                let element_perso = document.createElement("img");
+                element_perso.setAttribute("src",`./elements/${element}.png`)
+                element_perso.setAttribute("id","img_elem");
+                let elev_perso = document.createElement("p");
+                elev_perso.innerText = "Elevation Personage";
+                elev_perso.classList.add("title_assen");
+                div_elev_perso.append(elev_perso);
+                div_elev_perso.append(element_perso);
                 body.append(div_elev_perso);
-                let switchArrow = document.createElement("img");
-                switchArrow.classList.add("left");
+                let switchArrow = document.createElement("div");
+                switchArrow.classList.add("right");
+                body.append(switchArrow);
+                
+
                 newD2.addEventListener("click", function(event) {
+                    switchArrow.remove();
                     newD.remove();
                     newD2.remove();
                     img.remove();
@@ -200,6 +226,7 @@ function newA() {
             }
         })
     }
+    loaded();
 }
 
 
