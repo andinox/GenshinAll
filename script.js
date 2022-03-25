@@ -1,5 +1,11 @@
 window.onload = perso_display;
 let data;
+window.addEventListener("DOMContentLoaded", (event) => {
+    loader = document.getElementById("inwait");
+    loader.classList.add("none");
+});
+
+
 const colorSelect = document.getElementsByClassName("colorSelect")[0];
 colorSelect.addEventListener("click",function(event) {
     const main = document.getElementById("main");
@@ -14,6 +20,8 @@ colorSelect.addEventListener("click",function(event) {
         colorSelect.classList.add("light");
     }
 },false)
+
+
 
 
 const logo = document.getElementById("logo")[0];
@@ -173,11 +181,15 @@ function newA() {
                     div_art.append(div_art_solo);
                 }
                 body.append(div_art);
+                let div_elev_perso = document.createElement("div");
+                div_elev_perso.classList.add("elev_p");
+                body.append(div_elev_perso);
                 newD2.addEventListener("click", function(event) {
                     newD.remove();
                     newD2.remove();
                     img.remove();
                     newD3.remove();
+                    div_elev_perso.remove();
                     div_art.remove();
                     body.classList.remove("blur");
                 })

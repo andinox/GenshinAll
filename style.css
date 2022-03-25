@@ -35,6 +35,38 @@ body::-webkit-scrollbar {
     overflow-y: hidden; 
 }
 
+#inwait {
+    position: absolute;
+    top: 0%;
+    width: 100vw;
+    height: 200%;
+    z-index: 11;
+    background-color: white;
+}
+
+
+#loader {
+    position: absolute;
+    width: 15vh;
+    height: 15vh;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 12;
+    border-left: 5px solid;
+    border-radius: 100%;
+    animation-duration: 1s;
+    animation-name: turn;
+    animation-delay: 4ms;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes turn {
+    100% {
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
 
 header {
     position: fixed;
@@ -431,6 +463,28 @@ header {
     box-shadow: rgb(50 50 93 / 25%) -15px 0px 13px 0px, rgb(0 0 0 / 30%) 11px 0px 60px 0px;
 }
 
+.embed:after {
+    content: "";
+    background-color: rgb(255, 255, 255, 0.1);
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    left: 100%;
+    transform: rotate(3.15rad);
+    clip-path: polygon(100% 0%, 0% 0%, 12% 3%, 29% 7%, 42% 14%, 54% 22%, 63% 30%, 70% 39%, 73% 43%, 79% 53%, 83% 60%, 87% 67%, 95% 90%, 100% 100%);
+}
+
+.embed::before {
+    content: "";
+    background-color: rgb(255, 255, 255, 0.1);
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    left: -14%;
+    transform: rotate(1.5077rad);
+    clip-path: polygon(100% 0%, 0% 0%, 12% 3%, 29% 7%, 42% 14%, 54% 22%, 63% 30%, 70% 39%, 73% 43%, 79% 53%, 83% 60%, 87% 67%, 95% 90%, 100% 100%);
+}
+
 .stats_all {
     margin: 0px;
     font-family: Raleway;
@@ -452,6 +506,22 @@ header {
     margin: 3px;
     border-bottom: 1px solid;
 }
+
+
+
+.elev_p {
+    position: absolute;
+    z-index: 11;
+    top: 57vh;
+    left: 64vw;
+    border-radius: 25px;
+    transform: translate(-50%,-25%);
+    width: 46vw;
+    height: 22vw;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+
 
 .none {
     display: none;
