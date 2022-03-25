@@ -1,0 +1,154 @@
+{
+    "elements" : {
+        "geo" :["Noelle","Ningguang","Zhongli","Albedo","Gorou","Itto","Yun-jin"],
+        "electro" : ["Razor","Fischl","Beidou","Lisa","Keqing","Baal","Sara","Yae"],
+        "anemo" : ["Xiao","Venti","Sucrose","Jean","Kazuha","Sayu"],
+        "feu" : ["Xianling","Klee","Diluc","Bennett","Amber","Xianyan","Hu Tao","Yanfei","Yoimiya","Thoma"],
+        "glace" : ["Chungyun","Kaeya","Qiqi","Diona","Ganyu","Eula","Ayaka","Aloy","Shenhe"],
+        "eau" : ["Xingqiu","Barbara","Mona","Tartaglia","Kokomi"]
+        
+    },
+    "artefact":{
+        "Venti": [
+            {
+                "name":"Souvenir de fleur des champs",
+                "id":15002,
+                "data-tile" : "Ombre de la Verte Chasseuse",
+                "data":[
+                    "Recharge d'énergie %", "Maitrise élémentaire","ATQ %","Taux CRIT %"
+                ],
+                "data-lore" : "PV : 4780"
+            },
+            {
+                "name":"Plume de flèche de la Verte Chasseuse",
+                "id":15002,
+                "data-title" : "Ombre de la Verte Chasseuse",
+                "data":[
+                    "Recharge d'énergie %", "Maitrise élémentaire","ATQ %","Taux CRIT %"
+                ],
+                "data-lore" : "ATQ : 311"
+            },
+            {
+                "name":"Détermination de la Verte Chasseuse",
+                "id":15002,
+                "data-title" : "Ombre de la Verte Chasseuse",
+                "data":[
+                    "Recharge d'énergie %", "DGT CRIT %","ATQ %","Taux CRIT %"
+                ],
+                "data-lore" : "Maîtrise élémentaire : 187"
+            },
+            {
+                "name":"Récipient de la Verte Chasseuse",
+                "id":15002,
+                "data-title" : "Ombre de la Verte Chasseuse",
+                "data":[
+                    "Recharge d'énergie %", "Maitrise élémentaire","ATQ %","Taux CRIT %"
+                ],
+                "data-lore" : "Bonus de DGT Anémo : 46.6%"
+            },
+            {
+                "name":"Diadème de la Verte Chasseuse",
+                "id":15002,
+                "data-title" : "Ombre de la Verte Chasseuse",
+                "data":[
+                    "Recharge d'énergie %", "DGT CRIT %","ATQ %","Taux CRIT %"
+                ],
+                "data-lore" : "Maîtrise élémentaire : 187"
+            }
+        ],
+        "Jean":[
+            {
+                "name":"Souvenir de fleur des champs",
+                "id":15002,
+                "data-title": "Ombre de la Verte Chasseuse",
+                "data":[
+                    "Recharge d'énergie %", "DGT CRIT %","ATQ %","Taux CRIT %"
+                ],
+                "data-lore": "PV : 4780"
+            },
+            {
+                "name":"Plume de flèche de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Recharge d'énergie %", "DGT CRIT %","ATQ %","Taux CRIT %"
+                ],
+                "data-lore": "ATQ : 311"
+            },
+            {
+                "name":"Détermination de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Taux CRIT %", "DGT CRIT %", "Recharge d'énergie %", "Maitrise élémentaire"
+                ],
+                "data-lore": "ATQ : 46.6%"
+            },
+            {
+                "name":"Récipient de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Taux CRIT %", "DGT CRIT %", "Recharge d'énergie %", "Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Diadème de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "ATQ %","Taux CRIT %","DGT CRIT %","Recharge d'énergie %"
+                ],
+                "data-lore": "Bonus de soins : 35.9%"
+            }
+        ],
+        "Kazuha":[
+            {
+                "name":"Souvenir de fleur des champs",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Maitrise élémentaire","Taux CRIT %","DGT CRIT %","Recharge d'énergie %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume de flèche de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Maitrise élémentaire","Taux CRIT %","DGT CRIT %","Recharge d'énergie %"
+                ],
+                "data-lore": "ATQ : 311"
+            },
+            {
+                "name":"Détermination de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore": "Maîtrise élémentaire : 187"
+            },
+            {
+                "name":"Récipient de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore": "Maîtrise élémentaire : 187"
+            },
+            {
+                "name":"Diadème de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore": "Maîtrise élémentaire : 187"
+            }
+        ]
+    }
+}
