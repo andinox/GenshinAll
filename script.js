@@ -208,8 +208,32 @@ function newA() {
                 div_elev_perso.append(elev_perso);
                 div_elev_perso.append(element_perso);
                 body.append(div_elev_perso);
+                /* ====*/
+                let div_elev_comp = document.createElement("div");
+                div_elev_comp.classList.add("elev_p");
+                let element_perso2 = document.createElement("img");
+                element_perso.setAttribute("src",`./elements/${element}.png`)
+                element_perso.setAttribute("id","img_elem");
+                let elev_perso2 = document.createElement("p");
+                elev_perso2.innerText = "Elevation Personage";
+                elev_perso2.classList.add("title_assen");
+                div_elev_comp.append(elev_perso);
+                div_elev_comp.append(element_perso);
+                body.append(div_elev_comp);
                 let switchArrow = document.createElement("div");
                 switchArrow.classList.add("right");
+                switchArrow.addEventListener('click', function(event) {
+                    if (switchArrow.classList.contains("left")) {
+                        switchArrow.classList.remove("left");
+                    } else {
+                        switchArrow.classList.add("left");
+                    }
+                    if (div_elev_perso.classList.contains("anime_leave")) {
+                        div_elev_perso.classList.remove("anime_leave");
+                    } else {
+                        div_elev_perso.classList.add("anime_leave");
+                    }
+                })
                 body.append(switchArrow);
                 
 
