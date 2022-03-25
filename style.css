@@ -461,7 +461,8 @@ header {
 
 @font-face {
     font-family: "Raleway";
-    src: url("/Raleway-VariableFont_wght.ttf") format("truetype");
+    src: url("/Raleway-VariableFont_wght.ttf") format("truetype"),
+    url("./Raleway-Italic-VariableFont_wght.ttf") format("truetype");
            
 }
 
