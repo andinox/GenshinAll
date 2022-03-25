@@ -215,7 +215,10 @@ function newA() {
                     let name_of_item = data.Elevation.Main.perso.pierre;
                     img_of_div.setAttribute("src",`https://www.genshin-impact.fr/wp-content/uploads/2022/01/${name_of_item[o]+perso_elev.pierre}.png`)
                     let img_nb = document.createElement("p");
-                    
+                    img_nb.innerText = perso_elev.nb_pierre[o];
+                    div_img.append(img_of_div);
+                    div_img.append(img_nb);
+                    div_elev_perso.append(div_img);   
                 }
                 div_elev_perso.append(elev_perso);
                 div_elev_perso.append(element_perso);
