@@ -247,6 +247,7 @@ function newA() {
                     img.remove();
                     newD3.remove();
                     div_elev_perso.remove();
+                    div_elev_comp.remove();
                     div_art.remove();
                     body.classList.remove("blur");
                 })
