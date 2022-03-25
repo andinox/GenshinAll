@@ -237,6 +237,7 @@ function newA() {
                         div_elev_comp.classList.remove("anime_leave");
                     }
                 })
+                /** */
                 body.append(switchArrow);
                 
 
