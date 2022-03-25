@@ -8,6 +8,30 @@
         "eau" : ["Xingqiu","Barbara","Mona","Tartaglia","Kokomi"]
         
     },
+    "Elevation" : {
+        "Main" : {
+            "perso" : {
+                "nb_pierre" :  [1,9,9,6],
+                "nb_mob_drop" : [18,30,36],
+                "nb_boss" : 46,
+                "nb_fleurs" : 168,
+                "pierre" : ["eclat","fragment","morceau","pierre"],
+                "blob" : ["bave-de-blob","mucus-de-blob","essence-de-blob"],
+                "insigne" : ["insigne-de-nouvelle-recrue","insigne-de-sergent","insigne-dofficier"],
+                "nectar" : ["nectar-de-fleur-mensongere","nectar-miroitant","nectar-elementaire.png"],
+                "insigne_p" : ["insigne-du-pilleur","insigne-de-corbeau-en-argent","insigne-de-corbeau-en-or"]
+            }
+        },
+        "Xiao" : {
+            "perso" : {
+                "pierre" : "turquoise-vayuda",
+                "mob_drop" : "blob",
+                "boss" : "jade-juvenile",
+                "fleur": "fleur-de-qingxin"
+            }
+
+        }
+    },
     "artefact":{
         "Venti": [
             {
