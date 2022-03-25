@@ -196,6 +196,9 @@ function newA() {
                     div_art.append(div_art_solo);
                 }
                 body.append(div_art);
+
+                /**===== */
+
                 let div_elev_perso = document.createElement("div");
                 div_elev_perso.classList.add("elev_p");
                 const element = getElement(perso_name);
@@ -205,10 +208,20 @@ function newA() {
                 let elev_perso = document.createElement("p");
                 elev_perso.innerText = "Elevation Personage";
                 elev_perso.classList.add("title_assen");
+                for( let o = 0; o < 4; o++) {
+                    perso_elev = data.Elevation[perso_name].perso;
+                    let div_img = document.createElement("div");
+                    let img_of_div = document.createElement("img");
+                    let name_of_item = data.Elevation.Main.perso.pierre;
+                    img_of_div.setAttribute("src",`https://www.genshin-impact.fr/wp-content/uploads/2022/01/${name_of_item[o]+perso_elev.pierre}.png`)
+                    let img_nb = document.createElement("p");
+                    
+                }
                 div_elev_perso.append(elev_perso);
                 div_elev_perso.append(element_perso);
-                body.append(div_elev_perso);
+                
                 /* ====*/
+
                 let div_elev_comp = document.createElement("div");
                 div_elev_comp.classList.add("elev_p");
                 div_elev_comp.classList.add("anime_leave")
@@ -220,8 +233,13 @@ function newA() {
                 elev_perso2.classList.add("title_assen");
                 div_elev_comp.append(elev_perso2);
                 div_elev_comp.append(element_perso2);
+
+
+                /**====== */
+
+                body.append(div_elev_perso);
                 body.append(div_elev_comp);
-                let switchArrow = document.createElement("div");
+                let switchArrow = document.createElement("div"); 
                 switchArrow.classList.add("right");
                 switchArrow.addEventListener('click', function(event) {
                     if (switchArrow.classList.contains("left")) {
