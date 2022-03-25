@@ -211,14 +211,15 @@ function newA() {
                 /* ====*/
                 let div_elev_comp = document.createElement("div");
                 div_elev_comp.classList.add("elev_p");
+                div_elev_comp.classList.add("anime_leave")
                 let element_perso2 = document.createElement("img");
-                element_perso.setAttribute("src",`./elements/${element}.png`)
-                element_perso.setAttribute("id","img_elem");
+                element_perso2.setAttribute("src",`./elements/${element}.png`)
+                element_perso2.setAttribute("id","img_elem");
                 let elev_perso2 = document.createElement("p");
-                elev_perso2.innerText = "Elevation Personage";
+                elev_perso2.innerText = "Elevation Competences";
                 elev_perso2.classList.add("title_assen");
-                div_elev_comp.append(elev_perso);
-                div_elev_comp.append(element_perso);
+                div_elev_comp.append(elev_perso2);
+                div_elev_comp.append(element_perso2);
                 body.append(div_elev_comp);
                 let switchArrow = document.createElement("div");
                 switchArrow.classList.add("right");
@@ -230,8 +231,10 @@ function newA() {
                     }
                     if (div_elev_perso.classList.contains("anime_leave")) {
                         div_elev_perso.classList.remove("anime_leave");
+                        div_elev_comp.classList.add("anime_leave");
                     } else {
                         div_elev_perso.classList.add("anime_leave");
+                        div_elev_comp.classList.remove("anime_leave");
                     }
                 })
                 body.append(switchArrow);
