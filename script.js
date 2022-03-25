@@ -5,7 +5,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
     loader.classList.add("none");
     body = document.getElementsByTagName("body")[0];
     body.classList.remove("blur");
-
 });
 
 
@@ -187,6 +186,8 @@ function newA() {
                 let div_elev_perso = document.createElement("div");
                 div_elev_perso.classList.add("elev_p");
                 body.append(div_elev_perso);
+                let switchArrow = document.createElement("img");
+                switchArrow.classList.add("left");
                 newD2.addEventListener("click", function(event) {
                     newD.remove();
                     newD2.remove();
