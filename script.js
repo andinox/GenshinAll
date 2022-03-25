@@ -3,8 +3,9 @@ let data;
 window.addEventListener("DOMContentLoaded", (event) => {
     loader = document.getElementById("inwait");
     loader.classList.add("none");
-    body = document.getElementsByName("body")[0];
-    body.classList.remove("none");
+    body = document.getElementsByTagName("body")[0];
+    body.classList.remove("blur");
+
 });
 
 
