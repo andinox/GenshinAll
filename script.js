@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     loader = document.getElementById("inwait");
     loader.classList.add("none");
     body = document.getElementsByName("body")[0];
-    body.classList.remove("none";)
+    body.classList.remove("none");
 });
 
 
