@@ -147,10 +147,12 @@ function newA() {
                 newD2.innerText = "X"
                 newD2.classList.add("back");
                 body.append(newD2);
-                let img = document.createElement("img");
-                img.setAttribute("src",`https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_${name}@2x.png`)
-                img.classList.add("solo_img");
-                body.append(img);
+                for (let nk = 0; nk < 3; nk++) {
+                    let img = document.createElement("img");
+                    img.setAttribute("src",`https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_${name}@2x.png`)
+                    img.classList.add("solo_img");
+                    body.append(img);
+                }
                 let newD3 = document.createElement("div");
                 newD3.innerText = perso_name;
                 newD3.classList.add("peso_solo_name");
