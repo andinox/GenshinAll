@@ -24,12 +24,20 @@
         },
         "Xiao" : {
             "perso" : {
-                "pierre" : "turquoise-vayuda",
+                "pierre" : "-de-turquoise-vayuda",
                 "mob_drop" : "blob",
                 "boss" : "jade-juvenile",
                 "fleur": "fleur-de-qingxin"
             }
 
+        },
+        "Diluc" : {
+            "perso" : {
+                "pierre" : "-dagate-agnidus",
+                "mob_drop": "insigne",
+                "boss" : "graine-de-feu",
+                "fleur": "herbe-a-lampe"
+            }
         }
     },
     "artefact":{
