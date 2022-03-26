@@ -19,7 +19,8 @@
                 "blob" : ["bave-de-blob","mucus-de-blob","essence-de-blob"],
                 "insigne" : ["insigne-de-nouvelle-recrue","insigne-de-sergent","insigne-dofficier"],
                 "nectar" : ["nectar-de-fleur-mensongere","nectar-miroitant","nectar-elementaire.png"],
-                "insigne_p" : ["insigne-du-pilleur","insigne-de-corbeau-en-argent","insigne-de-corbeau-en-or"]
+                "insigne_p" : ["insigne-du-pilleur","insigne-de-corbeau-en-argent","insigne-de-corbeau-en-or"],
+                "masqque": ["masque-endommage","masque-sale","masque-sinistre"]
             }
         },
         "Xiao" : {
@@ -32,6 +33,14 @@
 
         },
         "Diluc" : {
+            "perso" : {
+                "pierre" : "-dagate-agnidus",
+                "mob_drop": "insigne",
+                "boss" : "graine-de-feu",
+                "fleur": "herbe-a-lampe"
+            }
+        },
+        "Xingqiu": {
             "perso" : {
                 "pierre" : "-dagate-agnidus",
                 "mob_drop": "insigne",
