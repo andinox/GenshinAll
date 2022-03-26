@@ -598,6 +598,9 @@ header input:focus {
 
 }
 
+.notin {
+    display: none;
+}
 
 .left {
     transform: rotate(180deg)  translate(-7%,+71%);

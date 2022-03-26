@@ -27,16 +27,19 @@ colorSelect.addEventListener("click",function(event) {
 function recherche(e) {
     personnages = document.getElementsByClassName("perso");
     divs = document.querySelectorAll("#main div");
-    filter("all");
     let a;
     for (let i = 0; i < personnages.length; i++) {
+        if (personnages[i].classList.contains("notin")) {
+            personnages[i].classList.remove("notin");
+            divs[i].classList.remove("notin");
+        }
         a = true
         if (personnages[i].getAttribute("alt").toLowerCase().search(e.toLowerCase()) != -1) {
             a = false;
         }
         if (a) {
-            personnages[i].classList.add("none")
-            divs[i].classList.add("none")
+            personnages[i].classList.add("notin");
+            divs[i].classList.add("notin");
         }
             
     }
