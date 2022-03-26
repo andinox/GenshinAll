@@ -409,6 +409,23 @@ header {
     
 }
 
+header input {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 6px;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 0;  
+    border-radius: 15px;
+}
+
+header input:focus {
+    outline: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
 .img_art:hover {
     opacity: 100%
 }

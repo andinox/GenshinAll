@@ -22,24 +22,30 @@ colorSelect.addEventListener("click",function(event) {
         colorSelect.classList.remove("night");
         colorSelect.classList.add("light");
     }
-},false)
+})
 
-
-
-
-const logo = document.getElementById("logo")[0];
-logo.addEventListener("click",function(event) {
-    if (logo.classList.contains("menu")) {
-        logo.classList.remove("menu");
-    } else {
-        logo.classList.add("menu");
+function recherche(e) {
+    personnages = document.getElementsByClassName("perso");
+    divs = document.querySelectorAll("#main div");
+    filter("all");
+    let a;
+    for (let i = 0; i < personnages.length; i++) {
+        a = true
+        if (personnages[i].getAttribute("alt").toLowerCase().search(e.toLowerCase()) != -1) {
+            a = false;
+        }
+        if (a) {
+            personnages[i].classList.add("none")
+            divs[i].classList.add("none")
+        }
+            
     }
-},false)
-
+}
 
 function filter(info) {
     personnages = document.getElementsByClassName("perso");
     divs = document.querySelectorAll("#main div");
+    
     if (info != "all") {
         filter("all");
         elements_need = data["elements"][info];
