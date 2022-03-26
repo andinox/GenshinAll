@@ -3,8 +3,8 @@
         "geo" :["Noelle","Ningguang","Zhongli","Albedo","Gorou","Itto","Yun-jin"],
         "electro" : ["Razor","Fischl","Beidou","Lisa","Keqing","Baal","Sara","Yae"],
         "anemo" : ["Xiao","Venti","Sucrose","Jean","Kazuha","Sayu"],
-        "feu" : ["Xianling","Klee","Diluc","Bennett","Amber","Xianyan","Hu Tao","Yanfei","Yoimiya","Thoma"],
-        "glace" : ["Chongyun","Kaeya","Qiqi","Diona","Ganyu","Eula","Ayaka","Aloy","Shenhe"],
+        "feu" : ["Xiangling","Klee","Diluc","Bennett","Amber","Xinyan","Hu Tao","Yanfei","Yoimiya","Thoma"],
+        "glace" : ["Chongyun","Kaeya","Qiqi","Diona","Ganyu","Eula","Ayaka","Aloy","Shenhe","Rosaria"],
         "eau" : ["Xingqiu","Barbara","Mona","Tartaglia","Kokomi"]
         
     },
@@ -565,6 +565,382 @@
                     "PV %","Recharge d'énergie %","ATQ %","Maitrise élémentaire"
                 ],
                 "data-lore":"Bonus de soins : 35.9%"
+            }
+        ],
+        "Razor":[
+            {
+                "name":"Fleur de fer ensanglantée",
+                "id":15008,
+                "data-title":"Chevalerie ensanglatée",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume noire ensanglantée",
+                "id":15008,
+                "data-title":"Chevalerie ensanglatée",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Figé dans le temps",
+                "id":15018,
+                "data-title":"Flamme blême",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Coupe de transcendance",
+                "id":15018,
+                "data-title":"Flamme blême",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"Bonus de DGT physiques : 58.3%"
+            },
+            {
+                "name":"Masque ricanant",
+                "id":15018,
+                "data-title":"Flamme blême",
+                "data":[
+                    "DGT CRIT %","ATQ %","Recharge d'énergie %","ATQ"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Fischl":[
+            {
+                "name":"Compassion de l'Oiselle du tonnerre",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Survivant de la catastrophe",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Espoir du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Ivresse du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"Bonus de DGT Électro : 46.6%"
+            },
+            {
+                "name":"Triomphe du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "DGT CRIT %","ATQ %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Beidou":[
+            {
+                "name":"Compassion de l'Oiselle du tonnerre",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Survivant de la catastrophe",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Électro : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "DGT CRIT %","Recharge d'énergie %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Lisa":[
+            {
+                "name":"Compassion de l'Oiselle du tonnerre",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Survivant de la catastrophe",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Électro : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "DGT CRIT %","Recharge d'énergie %","ATQ %","ATQ"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Keqing":[
+            {
+                "name":"Compassion de l'Oiselle du tonnerre",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Survivant de la catastrophe",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Espoir du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Ivresse du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"Bonus de DGT Électro : 46.6%"
+            },
+            {
+                "name":"Triomphe du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "DGT CRIT %","ATQ %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Baal":[
+            {
+                "name":"Tsuba magnifique",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume brisée",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Inro de la tempête",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Recharge d'énergie : 51.8%"
+            },
+            {
+                "name":"Gourde pourpre",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Kabuto orné",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "ATQ %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Sara":[
+            {
+                "name":"Fleur du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Électro : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "DGT CRIT %","Recharge d'énergie %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Yae":[
+            {
+                "name":"Compassion de l'Oiselle du tonnerre",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Survivant de la catastrophe",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Espoir du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Ivresse du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"Bonus de DGT Électro : 46.6%"
+            },
+            {
+                "name":"Triomphe du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "DGT CRIT %","ATQ %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
             }
         ]
     }
