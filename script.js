@@ -205,7 +205,7 @@ function newA() {
                 element_perso.setAttribute("src",`./elements/${element}.png`)
                 element_perso.setAttribute("id","img_elem");
                 let elev_perso = document.createElement("p");
-                elev_perso.innerText = "Elevation Personage";
+                elev_perso.innerText = "Elevation Personnage";
                 elev_perso.classList.add("title_assen");
                 perso_elev = data.Elevation[perso_name]["perso"];
                 for( let o = 0; o < 4; o++) {                    
