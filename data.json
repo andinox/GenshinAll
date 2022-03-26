@@ -15,37 +15,193 @@
                 "nb_mob_drop" : [18,30,36],
                 "nb_boss" : 46,
                 "nb_fleurs" : 168,
-                "pierre" : ["eclat","fragment","morceau","pierre"],
-                "blob" : ["bave-de-blob","mucus-de-blob","essence-de-blob"],
-                "insigne" : ["insigne-de-nouvelle-recrue","insigne-de-sergent","insigne-dofficier"],
-                "nectar" : ["nectar-de-fleur-mensongere","nectar-miroitant","nectar-elementaire.png"],
-                "insigne_p" : ["insigne-du-pilleur","insigne-de-corbeau-en-argent","insigne-de-corbeau-en-or"],
-                "masqque": ["masque-endommage","masque-sale","masque-sinistre"]
+                "turquoise_vayuda" : ["i_351","i_352","i_353","i_354"],
+                "diamant_scintillant" : ["i_301","i_302","i_303","i_304"],
+                "agate_agnidus" : ["i_311","i_312","i_313","i_314"],
+                "lazurite_varunada" : ["i_321","i_322","i_323","i_324"],
+                "amethyste_vajrada" : ["i_331","i_332","i_333","i_334"],
+                "jade shivada": ["i_341","i_342","i_343","i_344"],
+                "topaze prithiva" : ["i_341","i_342","i_343","i_344"],
+                "blob" : ["i_21","i_22","i_23"],
+                "spectrale" : ["i_185","i_186","i_187"],
+                "masque" : ["i_31","i_32","i_33"],
+                "parchemin" : ["i_41","i_42","i_53"],
+                "pointe" : ["i_51","i_52","i_53"],
+                "insigne" : ["i_111","i_112","i_113"],
+                "insigne_p" : ["i_121","i_122","i_123"],
+                "nectar" : ["i_131","i_132","i_133"],
+                "statue" : ["i_151","i_152","i_153"],
+                "garde" : ["i_161","i_162","i_163"],
+                "chaos" : ["i_171","i_172","i_173"]
             }
         },
         "Xiao" : {
             "perso" : {
-                "pierre" : "-de-turquoise-vayuda",
+                "pierre" : "turquoise_vayuda",
                 "mob_drop" : "blob",
-                "boss" : "jade-juvenile",
-                "fleur": "fleur-de-qingxin"
+                "boss" : "i_207",
+                "fleur": "i_614"
+            }
+
+        },
+        "Venti" : {
+            "perso" : {
+                "pierre" : "turquoise_vayuda",
+                "mob_drop" : "blob",
+                "boss" : "i_205",
+                "fleur": "i_601"
+            }
+
+        },
+        "Sucrose" : {
+            "perso" : {
+                "pierre" : "turquoise_vayuda",
+                "mob_drop" : "nectar",
+                "boss" : "i_205",
+                "fleur": "i_612"
+            }
+
+        },
+        "Jean" : {
+            "perso" : {
+                "pierre" : "turquoise_vayuda",
+                "mob_drop" : "masque",
+                "boss" : "i_205",
+                "fleur": "i_603"
+            }
+
+        },
+        "Kazuha" : {
+            "perso" : {
+                "pierre" : "turquoise_vayuda",
+                "mob_drop" : "insigne_p",
+                "boss" : "i_210",
+                "fleur": "i_675"
+            }
+
+        },
+        "Sayu" : {
+            "perso" : {
+                "pierre" : "turquoise_vayuda",
+                "mob_drop" : "nectar",
+                "boss" : "i_210",
+                "fleur": "i_679"
+            }
+
+        },
+        "Barbara" : {
+            "perso" : {
+                "pierre" : "lazurite_varunada",
+                "mob_drop" : "parchemin",
+                "boss" : "i_202",
+                "fleur": "i_607"
+            }
+
+        },
+        "Mona" : {
+            "perso" : {
+                "pierre" : "lazurite_varunada",
+                "mob_drop" : "nectar",
+                "boss" : "i_202",
+                "fleur": "i_607"
+            }
+
+        },
+        "Tartaglia" : {
+            "perso" : {
+                "pierre" : "lazurite_varunada",
+                "mob_drop" : "insigne",
+                "boss" : "i_213",
+                "fleur": "i_663"
+            }
+
+        },
+        "Kokomi" : {
+            "perso" : {
+                "pierre" : "lazurite_varunada",
+                "mob_drop" : "spectrale",
+                "boss" : "i_213",
+                "fleur": "i_685"
+            }
+
+        },
+        "Razor" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "masque",
+                "boss" : "i_203",
+                "fleur": "i_613"
+            }
+
+        },
+        "Fischl" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "pointe",
+                "boss" : "i_203",
+                "fleur": "i_609"
+            }
+
+        },
+        "Beibou" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "insigne_p",
+                "boss" : "i_203",
+                "fleur": "i_606"
+            }
+
+        },
+        "Lisa" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "blob",
+                "boss" : "i_203",
+                "fleur": "i_610"
+            }
+
+        },
+        "Baal" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "garde",
+                "boss" : "i_214",
+                "fleur": "i_686"
+            }
+
+        },
+        "Sara" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "masque",
+                "boss" : "i_214",
+                "fleur": "i_680"
+            }
+
+        },
+        "Yae" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "garde",
+                "boss" : "i_216",
+                "fleur": "i_675"
             }
 
         },
         "Diluc" : {
             "perso" : {
-                "pierre" : "-dagate-agnidus",
+                "pierre" : "agate_agnidus",
                 "mob_drop": "insigne",
-                "boss" : "graine-de-feu",
+                "boss" : "i_201",
                 "fleur": "herbe-a-lampe"
             }
         },
         "Xingqiu": {
             "perso" : {
-                "pierre" : "-dagate-agnidus",
-                "mob_drop": "insigne",
-                "boss" : "graine-de-feu",
-                "fleur": "herbe-a-lampe"
+                "pierre" : "lazurite_varunada",
+                "mob_drop": "masque",
+                "boss" : "i_202",
+                "fleur": "i_608"
             }
         }
     },

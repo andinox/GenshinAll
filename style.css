@@ -514,13 +514,13 @@ header {
 .elev_p {
     position: absolute;
     z-index: 10;
-    top: 57vh;
-    left: 64vw;
+    top: 56%;
+    left: 68%;
     border-radius: 25px;
-    transform: translate(-50%,-25%);
+    transform: translate(-64%,-25%);
     width: 46vw;
     height: 22vw;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 2px, rgb(0 0 0 / 7%) 0px 2px 4px, rgb(0 0 0 / 7%) 0px 4px 8px, rgb(0 0 0 / 7%) 0px 8px 16px, rgb(0 0 0 / 7%) 0px 16px 32px, rgb(0 0 0 / 7%) 0px 32px 64px;
     transition: 800ms;
     display: flex;
     flex-wrap: wrap;
@@ -531,6 +531,37 @@ header {
 }
 
 
+.item_elev {
+    z-index: 11;
+    position: relative;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex: 0 0 22%;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    width: 65px;
+    height: 65px;
+}
+
+.item_elev:not(:hover) p {
+    opacity: 0%;
+    transform: translate(-10%,-25%) rotate(90deg);
+    transition: none;
+}
+
+.item_elev p {
+    position: absolute;
+    top: -25%;
+    right: -5%;
+    transform: translate(-10%,-25%);
+    padding-left: 5px;
+    font-size: large;
+    font-style: italic;
+    font-family: Raleway;
+    transition: 400ms;
+}
 
 
 .right {
@@ -540,18 +571,19 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 11;
-    top: 85vh;
-    right: -26vw;
-    transform: translate(-70vh,-10vw);
+    top: 71%;
+    right: 7%;
+    transform: translate(-7%,-71%);
     height: 10vh;
     width: 3vw;
     opacity: 50%;
     transition: 200ms;
+
 }
 
 
 .left {
-    transform: rotate(180deg) translate(71vh,10.5vw);;
+    transform: rotate(180deg)  translate(-7%,+71%);
     transition: 200ms;
 }
 
@@ -562,10 +594,10 @@ header {
 #img_elem {
     position: absolute;
     user-select: none;
-    transform: scale(0.75) translate(-50vh,-50vw);
+    transform: translate(-50%,-50%) scale(0.7);
     opacity: 15%;
-    top: 75vh;
-    left: 28vw;
+    top: 50%;
+    left: 50%;
 }
 
 .title_assen {
@@ -579,22 +611,8 @@ header {
     
 }
 
-.item_elev {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    flex: 0 0 33%;
-    width: 55px;
-    height: 55px;
-}
 
-.item_elev p {
-    font-family: Raleway;
-}
 
-.item_elev img {
-    opacity: 75%;
-}
 
 
 .none {

@@ -147,12 +147,22 @@ function newA() {
                 newD2.innerText = "X"
                 newD2.classList.add("back");
                 body.append(newD2);
-                for (let nk = 0; nk < 3; nk++) {
-                    let img = document.createElement("img");
-                    img.setAttribute("src",`https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_${name}@2x.png`)
-                    img.classList.add("solo_img");
-                    body.append(img);
-                }
+                let img = document.createElement("img");
+                img.setAttribute("src",`https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_${name}@2x.png`)
+                img.classList.add("solo_img");
+                body.append(img);
+
+                let img2 = document.createElement("img");
+                img2.setAttribute("src",`https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_${name}@2x.png`)
+                img2.classList.add("solo_img");
+                body.append(img);
+
+                let img3 = document.createElement("img");
+                img3.setAttribute("src",`https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_${name}@2x.png`)
+                img3.classList.add("solo_img");
+                body.append(img);
+
+
                 let newD3 = document.createElement("div");
                 newD3.innerText = perso_name;
                 newD3.classList.add("peso_solo_name");
@@ -214,8 +224,8 @@ function newA() {
                     let div_img = document.createElement("div");
                     div_img.classList.add("item_elev");
                     let img_of_div = document.createElement("img");
-                    let name_of_item = data.Elevation.Main.perso.pierre;
-                    img_of_div.setAttribute("src",`https://www.genshin-impact.fr/wp-content/uploads/2022/01/${name_of_item[o]+perso_elev.pierre}.png`)
+                    let name_of_item = data.Elevation.Main.perso;
+                    img_of_div.setAttribute("src",`./items/stones/${name_of_item[perso_elev.pierre][o]}.png`)
                     let img_nb = document.createElement("p");
                     img_nb.innerText = `x${data["Elevation"]["Main"]["perso"]["nb_pierre"][o]}`;
                     div_img.append(img_of_div);
@@ -226,8 +236,8 @@ function newA() {
                     let div_img = document.createElement("div");
                     div_img.classList.add("item_elev");
                     let img_of_div = document.createElement("img");
-                    let name_of_item = data.Elevation.Main.perso[perso_elev.mob_drop];
-                    img_of_div.setAttribute("src",`https://www.genshin-impact.fr/wp-content/uploads/2022/01/${name_of_item[n]}.png`);
+                    let name_of_item = data.Elevation.Main.perso;
+                    img_of_div.setAttribute("src",`./items/drop/${name_of_item[perso_elev.mob_drop][n]}.png`);
                     let img_nb = document.createElement("p");
                     img_nb.innerText = `x${data["Elevation"]["Main"]["perso"]["nb_mob_drop"][n]}`;
                     div_img.append(img_of_div);
@@ -237,7 +247,7 @@ function newA() {
                 let div_img = document.createElement("div");
                     div_img.classList.add("item_elev");
                     let img_of_div = document.createElement("img");
-                    img_of_div.setAttribute("src",`https://www.genshin-impact.fr/wp-content/uploads/2022/01/${perso_elev.boss}.png`);
+                    img_of_div.setAttribute("src",`./items/boss/${perso_elev.boss}.png`);
                     let img_nb = document.createElement("p");
                     img_nb.innerText = `x${data["Elevation"]["Main"]["perso"]["nb_boss"]}`;
                     div_img.append(img_of_div);
@@ -246,7 +256,7 @@ function newA() {
                 let div_imgd = document.createElement("div");
                 div_imgd.classList.add("item_elev");
                 let img_of_divd = document.createElement("img");
-                img_of_divd.setAttribute("src",`https://www.genshin-impact.fr/wp-content/uploads/2022/01/${perso_elev.fleur}.png`);
+                img_of_divd.setAttribute("src",`./items/fleur/${perso_elev.fleur}.png`);
                     let img_nbd = document.createElement("p");
                     img_nbd.innerText = `x${data["Elevation"]["Main"]["perso"]["nb_fleurs"]}`;
                     div_imgd.append(img_of_divd);
@@ -310,6 +320,8 @@ function newA() {
                     newD.remove();
                     newD2.remove();
                     img.remove();
+                    img2.remove();
+                    img3.remove();
                     newD3.remove();
                     div_elev_perso.remove();
                     div_elev_comp.remove();
