@@ -1098,6 +1098,476 @@
                 ],
                 "data-lore":"Taux CRIT : 31.1%"
             }
+        ],
+        "Xiangling":[
+            {
+                "name":"Fleur ardente de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"                
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume enflammée éternelle de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","Recharge d'énergie %"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Pyro : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "DGT CRIT %","Recharge d'énergie %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Klee":[
+            {
+                "name":"Fleur ardente de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"                
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume enflammée éternelle de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Temps évanoui de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Feu du cœur de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de DGT Pyro : 46.6%"
+            },
+            {
+                "name":"Chapeau brûlé de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Diluc":[
+            {
+                "name":"Fleur ardente de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"                
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume enflammée éternelle de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Temps évanoui de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Feu du cœur de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de DGT Pyro : 46.6%"
+            },
+            {
+                "name":"Chapeau brûlé de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Bennett":[
+            {
+                "name":"Fleur du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","PV %","Maitrise élémentaire","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","PV %","PV","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "ATQ %","PV","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "PV","Maitrise élémentaire","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "PV","Recharge d'énergie %","ATQ %","PV %"
+                ],
+                "data-lore":"Bonus de soins : 35.9%"
+            }
+        ],
+        "Amber":[
+            {
+                "name":"Fleur du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","Taux CRIT %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","Taux CRIT %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Pyro : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","ATQ %","Maitrise élémentaire","DGT CRIT %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Xinyan":[
+            {
+                "name":"Fleur du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","Taux CRIT %","DÉF %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","Taux CRIT %","DÉF %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"DÉF : 58.3%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"DÉF : 58.3%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","ATQ %","DÉF %","DGT CRIT %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Hu Tao":[
+            {
+                "name":"Fleur ardente de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","PV %","Maitrise élémentaire"                
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume enflammée éternelle de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","PV %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Temps évanoui de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Feu du cœur de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","PV %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de DGT Pyro : 46.6%"
+            },
+            {
+                "name":"Chapeau brûlé de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","PV %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Yanfei":[
+            {
+                "name":"Fleur ardente de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"                
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume enflammée éternelle de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Temps évanoui de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Feu du cœur de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de DGT Pyro : 46.6%"
+            },
+            {
+                "name":"Chapeau brûlé de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Yoimiya":[
+            {
+                "name":"Fleur d'enchevêtrement",
+                "id":15019,
+                "data-title":"Réminiscence nostalgique",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Flèche de nostalgie",
+                "id":15019,
+                "data-title":"Réminiscence nostalgique",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Horloge de l'aube",
+                "id":15019,
+                "data-title":"Réminiscence nostalgique",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Cœur plein d'espoir",
+                "id":15019,
+                "data-title":"Réminiscence nostalgique",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de DGT Pyro : 46.6%"
+            },
+            {
+                "name":"Visage capricieux",
+                "id":15019,
+                "data-title":"Réminiscence nostalgique",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Thomas":[
+            {
+                "name":"Tsuba magnifique",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume brisée",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Inro de la tempête",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Gourde pourpre",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de DGT Pyro : 46.6%"
+            },
+            {
+                "name":"Kabuto orné",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "ATQ %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
         ]
     }
 }
