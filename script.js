@@ -196,7 +196,7 @@ function newA() {
                 }
                 body.append(div_art);
 
-                /**===== */
+                /**====== */
 
                 let div_elev_perso = document.createElement("div");
                 div_elev_perso.classList.add("elev_p");
