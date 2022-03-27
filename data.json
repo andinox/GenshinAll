@@ -33,6 +33,17 @@
                 "statue" : ["i_151","i_152","i_153"],
                 "garde" : ["i_161","i_162","i_163"],
                 "chaos" : ["i_171","i_172","i_173"]
+            },
+            "comp" : {
+                "poesie": ["i_401","i_402","i_403"],
+                "ephemere" : ["i_406","i_407","i_408"],
+                "diligence" : ["i_411","i_412","i_413"],
+                "elegance" : ["i_416","i_417","i_418"],
+                "liberter" : ["i_421","i_422","i_423"],
+                "lumiere" : ["i_426","i_427","i_428"],
+                "or" : ["i_431","i_432","i_433"],
+                "prosperiter": ["i_441","i_442","i_403"],
+                "resistance": ["i_451","i_452","i_453"]
             }
         },
         "Xiao" : {
@@ -41,6 +52,11 @@
                 "mob_drop" : "blob",
                 "boss" : "i_207",
                 "fleur": "i_614"
+            },
+            "comp" : {
+                "papier" : "",
+                "mob_drop":"",
+                "boss_eb" : ""
             }
         },
         "Venti" : {
@@ -286,7 +302,7 @@
         "Zhongli" : {
             "perso" : {
                 "pierre" : "topaze_prithiva",
-                "mob_drop": "blob",
+                "mob_drop": "insigne_p",
                 "boss" : "i_206",
                 "fleur": "i_602"
             }
@@ -323,6 +339,13 @@
                 "fleur": "i_604"
             }
         },
+
+
+
+
+
+
+
         "Chongyun" : {
             "perso" : {
                 "pierre" : "jade_shivada",
