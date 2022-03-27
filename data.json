@@ -286,7 +286,7 @@
         "Zhongli" : {
             "perso" : {
                 "pierre" : "topaze_prithiva",
-                "mob_drop": "insigne_p",
+                "mob_drop": "blob",
                 "boss" : "i_206",
                 "fleur": "i_602"
             }
@@ -323,13 +323,6 @@
                 "fleur": "i_604"
             }
         },
-
-
-
-
-
-
-
         "Chongyun" : {
             "perso" : {
                 "pierre" : "jade_shivada",
