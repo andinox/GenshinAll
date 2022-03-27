@@ -42,7 +42,6 @@
                 "boss" : "i_207",
                 "fleur": "i_614"
             }
-
         },
         "Venti" : {
             "perso" : {
@@ -51,7 +50,6 @@
                 "boss" : "i_205",
                 "fleur": "i_601"
             }
-
         },
         "Sucrose" : {
             "perso" : {
@@ -60,7 +58,6 @@
                 "boss" : "i_205",
                 "fleur": "i_612"
             }
-
         },
         "Jean" : {
             "perso" : {
@@ -69,7 +66,6 @@
                 "boss" : "i_205",
                 "fleur": "i_603"
             }
-
         },
         "Kazuha" : {
             "perso" : {
@@ -78,7 +74,6 @@
                 "boss" : "i_210",
                 "fleur": "i_675"
             }
-
         },
         "Sayu" : {
             "perso" : {
@@ -87,7 +82,14 @@
                 "boss" : "i_210",
                 "fleur": "i_679"
             }
-
+        },
+        "Xingqiu": {
+            "perso" : {
+                "pierre" : "lazurite_varunada",
+                "mob_drop": "masque",
+                "boss" : "i_202",
+                "fleur": "i_608"
+            }
         },
         "Barbara" : {
             "perso" : {
@@ -96,7 +98,6 @@
                 "boss" : "i_202",
                 "fleur": "i_607"
             }
-
         },
         "Mona" : {
             "perso" : {
@@ -105,7 +106,6 @@
                 "boss" : "i_202",
                 "fleur": "i_607"
             }
-
         },
         "Tartaglia" : {
             "perso" : {
@@ -114,7 +114,6 @@
                 "boss" : "i_213",
                 "fleur": "i_663"
             }
-
         },
         "Kokomi" : {
             "perso" : {
@@ -123,7 +122,6 @@
                 "boss" : "i_213",
                 "fleur": "i_685"
             }
-
         },
         "Razor" : {
             "perso" : {
@@ -132,7 +130,6 @@
                 "boss" : "i_203",
                 "fleur": "i_613"
             }
-
         },
         "Fischl" : {
             "perso" : {
@@ -141,7 +138,6 @@
                 "boss" : "i_203",
                 "fleur": "i_609"
             }
-
         },
         "Beidou" : {
             "perso" : {
@@ -150,7 +146,6 @@
                 "boss" : "i_203",
                 "fleur": "i_606"
             }
-
         },
         "Lisa" : {
             "perso" : {
@@ -159,7 +154,14 @@
                 "boss" : "i_203",
                 "fleur": "i_610"
             }
-
+        },
+        "Keqing" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "nectar",
+                "boss" : "i_203",
+                "fleur" : "i_602"
+            }
         },
         "Baal" : {
             "perso" : {
@@ -168,7 +170,6 @@
                 "boss" : "i_214",
                 "fleur": "i_686"
             }
-
         },
         "Sara" : {
             "perso" : {
@@ -177,7 +178,6 @@
                 "boss" : "i_214",
                 "fleur": "i_680"
             }
-
         },
         "Yae" : {
             "perso" : {
@@ -186,22 +186,13 @@
                 "boss" : "i_216",
                 "fleur": "i_675"
             }
-
         },
         "Diluc" : {
             "perso" : {
                 "pierre" : "agate_agnidus",
                 "mob_drop": "insigne",
                 "boss" : "i_201",
-                "fleur": "herbe-a-lampe"
-            }
-        },
-        "Xingqiu": {
-            "perso" : {
-                "pierre" : "lazurite_varunada",
-                "mob_drop": "masque",
-                "boss" : "i_202",
-                "fleur": "i_608"
+                "fleur": "i_609"
             }
         }
     },
