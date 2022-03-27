@@ -276,7 +276,7 @@ function newA() {
                 let img_of_divc = document.createElement("img");
                 img_of_divc.setAttribute("src",`https://www.genshin-impact.fr/wp-content/uploads/2022/01/Mora.png`);
                     let img_nbv = document.createElement("p");
-                    img_nbv.innerText = "2.010M";
+                    img_nbv.innerText = "2.093M";
                     div_imga.append(img_of_divc);
                     div_imga.append(img_nbv);
                     div_elev_perso.append(div_imga); 
@@ -328,6 +328,17 @@ function newA() {
                     div_img2.append(img_of_div2);
                     div_img2.append(img_nb1);
                     div_elev_comp.append(div_img2);
+
+                    let div_imgd1 = document.createElement("div");
+                    div_imgd1.classList.add("item_elev");
+                    let img_of_dive = document.createElement("img");
+                    img_of_dive.setAttribute("src",`./items/boss_heb/i_491.png`);
+                        let img_nbdd = document.createElement("p");
+                        img_nbdd.innerText = `x3`;
+                        div_imgd1.append(img_of_dive);
+                        div_imgd1.append(img_nbdd);
+                        div_elev_comp.append(div_imgd1);
+
                 let div_imgda = document.createElement("div");
                 div_imgda.classList.add("item_elev");
                 div_elev_comp.append(elev_perso2);
