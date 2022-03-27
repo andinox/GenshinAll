@@ -456,7 +456,7 @@
                 "id":15001,
                 "data-title":"Rideau du Gladiateur",
                 "data":[
-                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
                 ],
                 "data-lore":"ATQ : 311"
             },
@@ -1894,6 +1894,476 @@
                 "data-title":"Coquille des rêves opulents",
                 "data":[
                     "DÉF %","ATQ %","DGT CRIT %","Recharge d'énergie %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Ganyu":[
+            {
+                "name":"Aube de l'orchestre",
+                "id":15003,
+                "data-title":"Bande vagabonde",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume de flèche du lyriste",
+                "id":15003,
+                "data-title":"Bande vagabonde",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Tombée du rideau",
+                "id":15003,
+                "data-title":"Bande vagabonde",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","Maitrise élémentaire","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Gourde à cordes du ménestrel",
+                "id":15003,
+                "data-title":"Bande vagabonde",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de DGT Cryo : 46.6%"
+            },
+            {
+                "name":"Haut-de-forme du chef d'orchestre",
+                "id":15003,
+                "data-title":"Bande vagabonde",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"DGT CRIT : 62.2%"
+            }
+        ],
+        "Qiqi":[
+            {
+                "name":"Nostalgie du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Destination de Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Petit matin de la Demoiselle",
+                "id":14004,
+                "data-title":"Amour chéri",
+                "data":[
+                    "Maitrise élémentaire","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Loisir de la Demoiselle",
+                "id":14004,
+                "data-title":"Amour chéri",
+                "data":[
+                    "ATQ","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Beauté fugace de la Demoiselle",
+                "id":14004,
+                "data-title":"Amour chéri",
+                "data":[
+                    "ATQ %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"Bonus de soins : 35.9%"
+            }
+        ],
+        "Rosalia":[
+            {
+                "name":"Fleur du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Maitrise élémentaire","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Maitrise élémentaire","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Fin du pays des glaces",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Maitrise élémentaire","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"Recharge d'énergie : 51.8%"
+            },
+            {
+                "name":"Fierté de Tisseur de givre",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Maitrise élémentaire","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Cryo : 46.6%"
+            },
+            {
+                "name":"Écho de l'hiver",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Maitrise élémentaire","Recharge d'énergie %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Chongyun":[
+            {
+                "name":"Mémoires du froid",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Résolution du Briseur de glace",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Cryo : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "ATQ %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Kaeya":[
+            {
+                "name":"Mémoires du froid",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Résolution du Briseur de glace",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Cryo : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "ATQ %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Diona":[
+            {
+                "name":"Fleur du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","PV %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","PV %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","Recharge d'énergie %","ATQ %","PV %"
+                ],
+                "data-lore":"Bonus de soins : 35.9%"
+            }
+        ],
+        "Eula":[
+            {
+                "name":"Fleur inaltérable",
+                "id":15018,
+                "data-title":"Flamme blême",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume du sage docteur",
+                "id":15018,
+                "data-title":"Flamme blême",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Figé dans le temps",
+                "id":15018,
+                "data-title":"Flamme blême",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Coupe de transcendance",
+                "id":15018,
+                "data-title":"Flamme blême",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"Bonus de DGT physiques : 58.3%"
+            },
+            {
+                "name":"Masque ricanant",
+                "id":15018,
+                "data-title":"Flamme blême",
+                "data":[
+                    "DGT CRIT %","ATQ %","Recharge d'énergie %","ATQ"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Ayaka":[
+            {
+                "name":"Mémoires du froid",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Résolution du Briseur de glace",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Fin du pays des glaces",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Maitrise élémentaire","Taux CRIT %","DGT CRIT %","Recharge d'énergie %"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Fierté de Tisseur de givre",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Cryo : 46.6%"
+            },
+            {
+                "name":"Écho de l'hiver",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Maitrise élémentaire","Recharge d'énergie %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Aloy":[
+            {
+                "name":"Mémoires du froid",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Résolution du Briseur de glace",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Cryo : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "ATQ %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Shenhe":[
+            {
+                "name":"Nostalgie du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Destination de Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Horloge de l'aube",
+                "id":15019,
+                "data-title":"Réminiscence nostalgique",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Cœur plein d'espoir",
+                "id":15019,
+                "data-title":"Réminiscence nostalgique",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Visage capricieux",
+                "id":15019,
+                "data-title":"Réminiscence nostalgique",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","ATQ %","ATQ"
                 ],
                 "data-lore":"Taux CRIT : 31.1%"
             }
