@@ -322,6 +322,93 @@
                 "boss" : "i_215",
                 "fleur": "i_604"
             }
+        },
+
+
+
+
+
+
+
+        "Chongyun" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "masque",
+                "boss" : "i_204",
+                "fleur": "i_602"
+            }
+        },
+        "Kaeya" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "insigne_p",
+                "boss" : "i_204",
+                "fleur": "i_600"
+            }
+        },
+        "Qiqi" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "parchemin",
+                "boss" : "i_204",
+                "fleur": "i_611"
+            }
+        },
+        "Diona" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "pointe",
+                "boss" : "i_204",
+                "fleur": "i_600"
+            }
+        },
+        "Ganyu" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "nectar",
+                "boss" : "i_204",
+                "fleur": "i_614"
+            }
+        },
+        "Rosalia" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "insigne",
+                "boss" : "i_204",
+                "fleur": "i_610"
+            }
+        },
+        "Eula" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "masque",
+                "boss" : "i_208",
+                "fleur": "i_603"
+            }
+        },
+        "Ayaka" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "garde",
+                "boss" : "i_211",
+                "fleur": "i_678"
+            }
+        },
+        "Aloy" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "spectrale",
+                "boss" : "i_208",
+                "fleur": "i_679"
+            }
+        },
+        "Shenhe" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "nectar",
+                "boss" : "i_216",
+                "fleur": "i_614"
+            }
         }
     },
     "artefact":{
