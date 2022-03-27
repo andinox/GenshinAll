@@ -267,9 +267,6 @@
                 "fleur": "i_688"
             }
         },
-
-
-
         "Noelle" : {
             "perso" : {
                 "pierre" : "topaze_prithiva",
@@ -315,7 +312,7 @@
                 "pierre" : "topaze_prithiva",
                 "mob_drop": "blob",
                 "boss" : "i_215",
-                "fleur": ""
+                "fleur": "i_677"
             }
         },
         "Yun-Jin" : {
