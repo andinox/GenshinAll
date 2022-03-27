@@ -270,9 +270,7 @@ function newA() {
                     img_nbd.innerText = `x${data["Elevation"]["Main"]["perso"]["nb_fleurs"]}`;
                     div_imgd.append(img_of_divd);
                     div_imgd.append(img_nbd);
-                    div_elev_perso.append(div_imgd); 
-                div_elev_perso.append(elev_perso);
-                div_elev_perso.append(element_perso);
+                    div_elev_perso.append(div_imgd);
                 let div_imga = document.createElement("div");
                 div_imga.classList.add("item_elev");
                 let img_of_divc = document.createElement("img");
@@ -297,54 +295,50 @@ function newA() {
                 elev_perso2.innerText = "Elevation Competences";
                 elev_perso2.classList.add("title_assen");
                 comp_elev = data.Elevation[perso_name]["comp"];
-                for( let o = 0; o < 4; o++) {                    
+                for( let o = 0; o < 3; o++) {                    
                     let div_img1 = document.createElement("div");
                     div_img1.classList.add("item_elev");
                     let img_of_div = document.createElement("img");
                     let name_of_item = data.Elevation.Main.comp;
-                    img_of_div.setAttribute("src",`./items/stones/${name_of_item[comp_elev.papier][o]}.png`)
+                    img_of_div.setAttribute("src",`./items/paper/${name_of_item[comp_elev.papier][o]}.png`)
                     let img_nb = document.createElement("p");
-                    img_nb.innerText = `x${data["Elevation"]["Main"]["comp"]["nb_pierre"][o]}`;
+                    img_nb.innerText = `x${data["Elevation"]["Main"]["comp"]["paper"][o]}`;
                     div_img1.append(img_of_div);
                     div_img1.append(img_nb);
-                    div_elev_perso.append(div_img);   
+                    div_elev_comp.append(div_img1);   
                 }
                 for (let n = 0; n < 3; n++) {
-                    let div_img = document.createElement("div");
-                    div_img.classList.add("item_elev");
+                    let div_imge = document.createElement("div");
+                    div_imge.classList.add("item_elev");
                     let img_of_div = document.createElement("img");
                     let name_of_item = data.Elevation.Main.comp;
                     img_of_div.setAttribute("src",`./items/drop/${name_of_item[comp_elev.mob_drop][n]}.png`);
                     let img_nb = document.createElement("p");
-                    img_nb.innerText = `x${data["Elevation"]["Main"]["comp"]["nb_mob_drop"][n]}`;
-                    div_img.append(img_of_div);
-                    div_img.append(img_nb);
-                    div_elev_perso.append(div_img); 
+                    img_nb.innerText = `x${data["Elevation"]["Main"]["comp"]["mob"][n]}`;
+                    div_imge.append(img_of_div);
+                    div_imge.append(img_nb);
+                    div_elev_comp.append(div_imge); 
                 }
                 let div_img2 = document.createElement("div");
                     div_img2.classList.add("item_elev");
                     let img_of_div2 = document.createElement("img");
-                    img_of_div2.setAttribute("src",`./items/boss/${comp_elev.boss_eb}.png`);
+                    img_of_div2.setAttribute("src",`./items/boss_heb/${comp_elev.boss_eb}.png`);
                     let img_nb1 = document.createElement("p");
-                    img_nb1.innerText = `x${data["Elevation"]["Main"]["comp"]["nb_boss"]}`;
-                    div_img.append(img_of_div2);
-                    div_img.append(img_nb1);
-                    div_elev_perso.append(div_img);
+                    img_nb1.innerText = `x${data["Elevation"]["Main"]["comp"]["boss_eb"]}`;
+                    div_img2.append(img_of_div2);
+                    div_img2.append(img_nb1);
+                    div_elev_comp.append(div_img2);
                 let div_imgda = document.createElement("div");
                 div_imgda.classList.add("item_elev");
-                div_elev_perso.append(elev_perso);
-                div_elev_perso.append(element_perso);
-                let div_imgaa = document.createElement("div");
-                div_imgaa.classList.add("item_elev");
+                div_elev_comp.append(elev_perso2);
+                div_elev_comp.append(element_perso2);
                 let img_of_divac = document.createElement("img");
                 img_of_divac.setAttribute("src",`https://www.genshin-impact.fr/wp-content/uploads/2022/01/Mora.png`);
-                    let img_nbav = document.createElement("p");
-                    img_nbav.innerText = "4.95M";
-                    div_imgaa.append(img_of_divac);
-                    div_imgaa.append(img_nbav);
-                    div_elev_perso.append(div_imgaa); 
-                div_elev_perso.append(elev_perso);
-                div_elev_perso.append(element_perso);
+                let img_nbav = document.createElement("p");
+                img_nbav.innerText = "4.95M";
+                div_imgda.append(img_of_divac);
+                div_imgda.append(img_nbav);
+                div_elev_comp.append(div_imgda); 
 
 
                 /**====== */
