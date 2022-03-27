@@ -187,12 +187,143 @@
                 "fleur": "i_675"
             }
         },
+        "Xiangling" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop" : "blob",
+                "boss" : "i_201",
+                "fleur" : "i_605"
+            }
+        },
+        "Klee" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop" : "parchemin",
+                "boss" : "i_201",
+                "fleur" : "i_607"
+            }
+        },
         "Diluc" : {
             "perso" : {
                 "pierre" : "agate_agnidus",
                 "mob_drop": "insigne",
                 "boss" : "i_201",
                 "fleur": "i_609"
+            }
+        },
+        "Bennett" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop": "insigne_p",
+                "boss" : "i_201",
+                "fleur": "i_612"
+            }
+        },
+        "Amber" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop": "pointe",
+                "boss" : "i_201",
+                "fleur": "i_609"
+            }
+        },
+        "Xinyan" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop": "insigne_p",
+                "boss" : "i_201",
+                "fleur": "i_611"
+            }
+        },
+        "Hu Tao" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop": "nectar",
+                "boss" : "i_207",
+                "fleur": "i_608"
+            }
+        },
+        "Yanfei" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop": "insigne_p",
+                "boss" : "i_207",
+                "fleur": "i_606"
+            }
+        },
+        "Yoimiya" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop": "parchemin",
+                "boss" : "i_212",
+                "fleur": "i_681"
+            }
+        },
+        "Thomas" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop": "insigne_p",
+                "boss" : "i_212",
+                "fleur": "i_688"
+            }
+        },
+
+
+
+        "Noelle" : {
+            "perso" : {
+                "pierre" : "topaze_prithiva",
+                "mob_drop": "masque",
+                "boss" : "i_206",
+                "fleur": "i_610"
+            }
+        },
+        "Ningguang" : {
+            "perso" : {
+                "pierre" : "topaze_prithiva",
+                "mob_drop": "insigne",
+                "boss" : "i_206",
+                "fleur": "i_604"
+            }
+        },
+        "Zhongli" : {
+            "perso" : {
+                "pierre" : "topaze_prithiva",
+                "mob_drop": "insigne_p",
+                "boss" : "i_206",
+                "fleur": "i_602"
+            }
+        },
+        "Albedo" : {
+            "perso" : {
+                "pierre" : "topaze_prithiva",
+                "mob_drop": "parchemin",
+                "boss" : "i_206",
+                "fleur": "i_601"
+            }
+        },
+        "Gorou" : {
+            "perso" : {
+                "pierre" : "topaze_prithiva",
+                "mob_drop": "spectrale",
+                "boss" : "i_211",
+                "fleur": "i_685"
+            }
+        },
+        "Itto" : {
+            "perso" : {
+                "pierre" : "topaze_prithiva",
+                "mob_drop": "blob",
+                "boss" : "i_215",
+                "fleur": ""
+            }
+        },
+        "Yun-Jin" : {
+            "perso" : {
+                "pierre" : "topaze_prithiva",
+                "mob_drop": "masque",
+                "boss" : "i_215",
+                "fleur": "i_604"
             }
         }
     },
