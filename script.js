@@ -1,9 +1,14 @@
 window.onload = perso_display;
 let data;
+let perso_name_of_class = "perso_name";
+let actived = "actived";
+
 
 function loaded() {
     loader = document.getElementById("inwait");
     loader.classList.add("none");
+    load = document.getElementById("loader");
+    load.classList.add("none");
     body = document.getElementsByTagName("body")[0];
     body.classList.remove("blur");
 }
@@ -12,15 +17,41 @@ function loaded() {
 const colorSelect = document.getElementsByClassName("colorSelect")[0];
 colorSelect.addEventListener("click",function(event) {
     const main = document.getElementById("main");
+    const element = document.getElementsByClassName("elements")[0];
+    const logo = document.getElementById("logo");
+    const header = document.querySelector("header");
+    const input = document.querySelector("header input");
+    const menu = document.getElementsByClassName("menu")[0];
+    const loader = document.getElementById("inwait");
     if (colorSelect.classList.contains("light")) {
         colorSelect.classList.remove("light");
         colorSelect.classList.add("night");
-        main.style.background = "#333"
+        loader.classList.remove("none");
+        loader.classList.add("dark");
+        main.classList.add("main");
+        element.classList.add("elements_b");
+        header.classList.add("main");
+        logo.style.color = "#fff";
+        input.classList.add("bg_26");
+        perso_name_of_class = "perso_name_b";
+        menu.classList.add("main");
+        menu.classList.add("menu_n");
+        actived = "actived_w";
 
     } else {
-        main.style.background = "#fff"
+        loader.classList.add("none");
+        loader.classList.remove("dark");
+        menu.classList.remove("menu_n");
+        menu.classList.remove("main");
+        perso_name_of_class = "perso_name";
+        logo.style.color = "#000";
+        element.classList.remove("elements_b");
+        main.classList.remove("main");
+        input.classList.remove("bg_26");
+        header.classList.remove("main");
         colorSelect.classList.remove("night");
         colorSelect.classList.add("light");
+        actived = "actived";
     }
 })
 
@@ -88,16 +119,16 @@ function perso_display() {
     for (let l = 0; l < 6; l++) {
         elements[l].addEventListener("click", function(event) {
             let a = false;
-            if (elements[l].classList.contains("actived")) {
+            if (elements[l].classList.contains(actived)) {
                 a = true;
             }
             for (let o = 0; o < 6; o++) {
-                if (elements[o].classList.contains("actived")) {
-                    elements[o].classList.remove("actived");
+                if (elements[o].classList.contains(actived)) {
+                    elements[o].classList.remove(actived);
                 }
             }
             if (!a) {
-                elements[l].classList.add("actived");
+                elements[l].classList.add(actived);
                 const info = elements[l].getAttribute("alt");
                 filter(info)
             } else {
@@ -133,12 +164,12 @@ function newA() {
             let perso_name = event.target.getAttribute("alt");
             let newA = document.createElement("a")
             newA.setAttribute("href","#");
-            newA.classList.add("perso_name");
+            newA.classList.add(perso_name_of_class);
             newA.innerText = perso_name;
             base[i].append(newA);
         })
         base[i].addEventListener("mouseout", function(event) {
-            let perso_name = document.getElementsByClassName("perso_name")[0];
+            let perso_name = document.getElementsByClassName(perso_name_of_class)[0];
             perso_name.remove();
         })
         base[i].addEventListener("click", function(event) {
@@ -185,7 +216,7 @@ function newA() {
                     let div_art_solo  = document.createElement("div");
                     div_art_solo.classList.add("art_solo");
                     let art_img = document.createElement("img");
-                    art_img.setAttribute("src",`https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_${perso_data[u-1].id}_${order[u-1]}.png`)
+                    art_img.setAttribute("src",`https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_${perso_data[u-1].id}_${order[u-1]}.png`);
                     art_img.classList.add("img_art");
                     art_img.classList.add("l");
                     div_art_solo.append(art_img);
@@ -234,7 +265,7 @@ function newA() {
                     div_img.classList.add("item_elev");
                     let img_of_div = document.createElement("img");
                     let name_of_item = data.Elevation.Main.perso;
-                    img_of_div.setAttribute("src",`./items/stones/${name_of_item[perso_elev.pierre][o]}.png`)
+                    img_of_div.setAttribute("src",`./items/stones/${name_of_item[perso_elev.pierre][o]}.png`);
                     let img_nb = document.createElement("p");
                     img_nb.innerText = `x${data["Elevation"]["Main"]["perso"]["nb_pierre"][o]}`;
                     div_img.append(img_of_div);
@@ -300,7 +331,7 @@ function newA() {
                     div_img1.classList.add("item_elev");
                     let img_of_div = document.createElement("img");
                     let name_of_item = data.Elevation.Main.comp;
-                    img_of_div.setAttribute("src",`./items/paper/${name_of_item[comp_elev.papier][o]}.png`)
+                    img_of_div.setAttribute("src",`./items/paper/${name_of_item[comp_elev.papier][o]}.png`);
                     let img_nb = document.createElement("p");
                     img_nb.innerText = `x${data["Elevation"]["Main"]["comp"]["paper"][o]}`;
                     div_img1.append(img_of_div);
