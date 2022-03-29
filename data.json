@@ -79,6 +79,11 @@
                 "mob_drop" : "blob",
                 "boss" : "i_205",
                 "fleur": "i_601"
+            },
+            "comp" : {
+                "papier" : "poesie",
+                "mob_drop":"blob",
+                "boss_eb" : "i_464"
             }
         },
         "Sucrose" : {
@@ -87,6 +92,11 @@
                 "mob_drop" : "nectar",
                 "boss" : "i_205",
                 "fleur": "i_612"
+            },
+            "comp" : {
+                "papier" : "liberter",
+                "mob_drop":"nectar",
+                "boss_eb" : "i_466"
             }
         },
         "Jean" : {
@@ -95,6 +105,11 @@
                 "mob_drop" : "masque",
                 "boss" : "i_205",
                 "fleur": "i_603"
+            },
+            "comp" : {
+                "papier" : "resistance",
+                "mob_drop":"masque",
+                "boss_eb" : "i_461"
             }
         },
         "Kazuha" : {
@@ -103,6 +118,11 @@
                 "mob_drop" : "insigne_p",
                 "boss" : "i_210",
                 "fleur": "i_675"
+            },
+            "comp" : {
+                "papier" : "diligence",
+                "mob_drop":"insigne_p",
+                "boss_eb" : "i_472"
             }
         },
         "Sayu" : {
@@ -111,6 +131,11 @@
                 "mob_drop" : "nectar",
                 "boss" : "i_210",
                 "fleur": "i_679"
+            },
+            "comp" : {
+                "papier" : "lumiere",
+                "mob_drop":"nectar",
+                "boss_eb" : "i_472"
             }
         },
         "Xingqiu": {
@@ -119,6 +144,11 @@
                 "mob_drop": "masque",
                 "boss" : "i_202",
                 "fleur": "i_608"
+            },
+            "comp" : {
+                "papier" : "or",
+                "mob_drop":"masque",
+                "boss_eb" : "i_464"
             }
         },
         "Barbara" : {
@@ -127,6 +157,11 @@
                 "mob_drop" : "parchemin",
                 "boss" : "i_202",
                 "fleur": "i_607"
+            },
+            "comp" : {
+                "papier" : "liberter",
+                "mob_drop":"parchemin",
+                "boss_eb" : "i_465"
             }
         },
         "Mona" : {
@@ -135,6 +170,11 @@
                 "mob_drop" : "nectar",
                 "boss" : "i_202",
                 "fleur": "i_607"
+            },
+            "comp" : {
+                "papier" : "resistance",
+                "mob_drop":"nectar",
+                "boss_eb" : "i_465"
             }
         },
         "Tartaglia" : {
@@ -143,6 +183,11 @@
                 "mob_drop" : "insigne",
                 "boss" : "i_202",
                 "fleur": "i_663"
+            },
+            "comp" : {
+                "papier" : "liberter",
+                "mob_drop":"insigne",
+                "boss_eb" : "i_468"
             }
         },
         "Kokomi" : {
@@ -151,6 +196,11 @@
                 "mob_drop" : "spectrale",
                 "boss" : "i_213",
                 "fleur": "i_685"
+            },
+            "comp" : {
+                "papier" : "ephemere",
+                "mob_drop":"spectrale",
+                "boss_eb" : "i_481"
             }
         },
         "Razor" : {
@@ -159,6 +209,11 @@
                 "mob_drop" : "masque",
                 "boss" : "i_203",
                 "fleur": "i_613"
+            },
+            "comp" : {
+                "papier" : "resistance",
+                "mob_drop":"masque",
+                "boss_eb" : "i_462"
             }
         },
         "Fischl" : {
@@ -167,6 +222,11 @@
                 "mob_drop" : "pointe",
                 "boss" : "i_203",
                 "fleur": "i_609"
+            },
+            "comp" : {
+                "papier" : "poesie",
+                "mob_drop": "pointe",
+                "boss_eb" : "i_466"
             }
         },
         "Beidou" : {
@@ -175,6 +235,11 @@
                 "mob_drop" : "insigne_p",
                 "boss" : "i_203",
                 "fleur": "i_606"
+            },
+            "comp" : {
+                "papier" : "or",
+                "mob_drop":"insigne_p",
+                "boss_eb" : "i_463"
             }
         },
         "Lisa" : {
@@ -183,6 +248,11 @@
                 "mob_drop" : "blob",
                 "boss" : "i_203",
                 "fleur": "i_610"
+            },
+            "comp" : {
+                "papier" : "poesie",
+                "mob_drop":"blob",
+                "boss_eb" : "i_462"
             }
         },
         "Keqing" : {
@@ -191,6 +261,11 @@
                 "mob_drop" : "nectar",
                 "boss" : "i_203",
                 "fleur" : "i_602"
+            },
+            "comp" : {
+                "papier" : "prosperiter",
+                "mob_drop":"nectar",
+                "boss_eb" : "i_465"
             }
         },
         "Baal" : {
@@ -199,6 +274,11 @@
                 "mob_drop" : "garde",
                 "boss" : "i_214",
                 "fleur": "i_686"
+            },
+            "comp" : {
+                "papier" : "lumiere",
+                "mob_drop":"garde",
+                "boss_eb" : "i_480"
             }
         },
         "Sara" : {
@@ -207,6 +287,11 @@
                 "mob_drop" : "masque",
                 "boss" : "i_214",
                 "fleur": "i_680"
+            },
+            "comp" : {
+                "papier" : "elegance",
+                "mob_drop":"masque",
+                "boss_eb" : "i_482"
             }
         },
         "Yae" : {
@@ -215,6 +300,11 @@
                 "mob_drop" : "garde",
                 "boss" : "i_216",
                 "fleur": "i_675"
+            },
+            "comp" : {
+                "papier" : "lumiere",
+                "mob_drop":"garde",
+                "boss_eb" : "i_485"
             }
         },
         "Xiangling" : {
@@ -223,6 +313,11 @@
                 "mob_drop" : "blob",
                 "boss" : "i_201",
                 "fleur" : "i_605"
+            },
+            "comp" : {
+                "papier" : "diligence",
+                "mob_drop":"blob",
+                "boss_eb" : "i_462"
             }
         },
         "Klee" : {
@@ -231,6 +326,11 @@
                 "mob_drop" : "parchemin",
                 "boss" : "i_201",
                 "fleur" : "i_607"
+            },
+            "comp" : {
+                "papier" : "liberter",
+                "mob_drop":"parchemin",
+                "boss_eb" : "i_465"
             }
         },
         "Diluc" : {
@@ -239,6 +339,11 @@
                 "mob_drop": "insigne",
                 "boss" : "i_201",
                 "fleur": "i_609"
+            },
+            "comp" : {
+                "papier" : "resistance",
+                "mob_drop":"insigne",
+                "boss_eb" : "i_461"
             }
         },
         "Bennett" : {
@@ -247,6 +352,11 @@
                 "mob_drop": "insigne_p",
                 "boss" : "i_201",
                 "fleur": "i_612"
+            },
+            "comp" : {
+                "papier" : "resistance",
+                "mob_drop":"insigne_p",
+                "boss_eb" : "i_461"
             }
         },
         "Amber" : {
@@ -255,6 +365,11 @@
                 "mob_drop": "pointe",
                 "boss" : "i_201",
                 "fleur": "i_609"
+            },
+            "comp" : {
+                "papier" : "liberter",
+                "mob_drop":"pointe",
+                "boss_eb" : "i_463"
             }
         },
         "Xinyan" : {
@@ -263,6 +378,11 @@
                 "mob_drop": "insigne_p",
                 "boss" : "i_201",
                 "fleur": "i_611"
+            },
+            "comp" : {
+                "papier" : "or",
+                "mob_drop":"insigne_p",
+                "boss_eb" : "i_467"
             }
         },
         "Hu Tao" : {
@@ -271,6 +391,11 @@
                 "mob_drop": "nectar",
                 "boss" : "i_207",
                 "fleur": "i_608"
+            },
+            "comp" : {
+                "papier" : "diligence",
+                "mob_drop":"nectar",
+                "boss_eb" : "i_468"
             }
         },
         "Yanfei" : {
@@ -279,6 +404,11 @@
                 "mob_drop": "insigne_p",
                 "boss" : "i_207",
                 "fleur": "i_606"
+            },
+            "comp" : {
+                "papier" : "or",
+                "mob_drop":"insigne_p",
+                "boss_eb" : "i_471"
             }
         },
         "Yoimiya" : {
@@ -287,6 +417,11 @@
                 "mob_drop": "parchemin",
                 "boss" : "i_212",
                 "fleur": "i_681"
+            },
+            "comp" : {
+                "papier" : "ephemere",
+                "mob_drop":"parchemin",
+                "boss_eb" : "i_470"
             }
         },
         "Thomas" : {
@@ -295,6 +430,11 @@
                 "mob_drop": "insigne_p",
                 "boss" : "i_212",
                 "fleur": "i_688"
+            },
+            "comp" : {
+                "papier" : "ephemere",
+                "mob_drop":"insigne_p",
+                "boss_eb" : "i_481"
             }
         },
         "Noelle" : {
@@ -303,6 +443,11 @@
                 "mob_drop": "masque",
                 "boss" : "i_206",
                 "fleur": "i_610"
+            },
+            "comp" : {
+                "papier" : "resistance",
+                "mob_drop":"masque",
+                "boss_eb" : "i_462"
             }
         },
         "Ningguang" : {
@@ -311,6 +456,11 @@
                 "mob_drop": "insigne",
                 "boss" : "i_206",
                 "fleur": "i_604"
+            },
+            "comp" : {
+                "papier" : "prosperiter",
+                "mob_drop":"insigne",
+                "boss_eb" : "i_466"
             }
         },
         "Zhongli" : {
@@ -319,6 +469,11 @@
                 "mob_drop": "insigne_p",
                 "boss" : "i_206",
                 "fleur": "i_602"
+            },
+            "comp" : {
+                "papier" : "or",
+                "mob_drop":"blob",
+                "boss_eb" : "i_467"
             }
         },
         "Albedo" : {
@@ -327,6 +482,11 @@
                 "mob_drop": "parchemin",
                 "boss" : "i_206",
                 "fleur": "i_601"
+            },
+            "comp" : {
+                "papier" : "poesie",
+                "mob_drop":"parchemin",
+                "boss_eb" : "i_467"
             }
         },
         "Gorou" : {
@@ -335,6 +495,11 @@
                 "mob_drop": "spectrale",
                 "boss" : "i_211",
                 "fleur": "i_685"
+            },
+            "comp" : {
+                "papier" : "lumiere",
+                "mob_drop":"spectrale",
+                "boss_eb" : "i_480"
             }
         },
         "Itto" : {
@@ -343,6 +508,11 @@
                 "mob_drop": "blob",
                 "boss" : "i_215",
                 "fleur": "i_677"
+            },
+            "comp" : {
+                "papier" : "elegance",
+                "mob_drop":"blob",
+                "boss_eb" : "i_482"
             }
         },
         "Yun-Jin" : {
@@ -351,21 +521,24 @@
                 "mob_drop": "masque",
                 "boss" : "i_215",
                 "fleur": "i_604"
+            },
+            "comp" : {
+                "papier" : "diligence",
+                "mob_drop":"masque",
+                "boss_eb" : "i_482"
             }
         },
-
-
-
-
-
-
-
         "Chongyun" : {
             "perso" : {
                 "pierre" : "jade_shivada",
                 "mob_drop": "masque",
                 "boss" : "i_204",
                 "fleur": "i_602"
+            },
+            "comp" : {
+                "papier" : "diligence",
+                "mob_drop":"masque",
+                "boss_eb" : "i_463"
             }
         },
         "Kaeya" : {
@@ -374,6 +547,11 @@
                 "mob_drop": "insigne_p",
                 "boss" : "i_204",
                 "fleur": "i_600"
+            },
+            "comp" : {
+                "papier" : "poesie",
+                "mob_drop":"insigne_p",
+                "boss_eb" : "i_466"
             }
         },
         "Qiqi" : {
@@ -382,6 +560,11 @@
                 "mob_drop": "parchemin",
                 "boss" : "i_204",
                 "fleur": "i_611"
+            },
+            "comp" : {
+                "papier" : "prosperiter",
+                "mob_drop":"parchemin",
+                "boss_eb" : "i_464"
             }
         },
         "Diona" : {
@@ -390,6 +573,11 @@
                 "mob_drop": "pointe",
                 "boss" : "i_204",
                 "fleur": "i_600"
+            },
+            "comp" : {
+                "papier" : "liberter",
+                "mob_drop":"pointe",
+                "boss_eb" : "i_468"
             }
         },
         "Ganyu" : {
@@ -398,6 +586,11 @@
                 "mob_drop": "nectar",
                 "boss" : "i_204",
                 "fleur": "i_614"
+            },
+            "comp" : {
+                "papier" : "diligence",
+                "mob_drop":"nectar",
+                "boss_eb" : "i_469"
             }
         },
         "Rosalia" : {
@@ -406,6 +599,11 @@
                 "mob_drop": "insigne",
                 "boss" : "i_204",
                 "fleur": "i_610"
+            },
+            "comp" : {
+                "papier" : "poesie",
+                "mob_drop":"insigne",
+                "boss_eb" : "i_469"
             }
         },
         "Eula" : {
@@ -414,6 +612,11 @@
                 "mob_drop": "masque",
                 "boss" : "i_208",
                 "fleur": "i_603"
+            },
+            "comp" : {
+                "papier" : "resistance",
+                "mob_drop":"masque",
+                "boss_eb" : "i_470"
             }
         },
         "Ayaka" : {
@@ -422,6 +625,11 @@
                 "mob_drop": "garde",
                 "boss" : "i_211",
                 "fleur": "i_678"
+            },
+            "comp" : {
+                "papier" : "elegance",
+                "mob_drop":"garde",
+                "boss_eb" : "i_471"
             }
         },
         "Aloy" : {
@@ -430,6 +638,11 @@
                 "mob_drop": "spectrale",
                 "boss" : "i_208",
                 "fleur": "i_679"
+            },
+            "comp" : {
+                "papier" : "liberter",
+                "mob_drop":"spectrale",
+                "boss_eb" : "i_480"
             }
         },
         "Shenhe" : {
@@ -438,6 +651,11 @@
                 "mob_drop": "nectar",
                 "boss" : "i_216",
                 "fleur": "i_614"
+            },
+            "comp" : {
+                "papier" : "prosperiter",
+                "mob_drop":"nectar",
+                "boss_eb" : "i_482"
             }
         }
     },
