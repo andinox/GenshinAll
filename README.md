@@ -15,3 +15,4 @@ Le but de ce projet est de montrer les statistiques des build maximun de chaque 
 - L'utilisation de display flex et de toutes ses features.
 - Crée du Html grace avec du javascript.
 - Gestion d'un json / database
+#### [view website](https://andinox.github.io/GenshinAll/)
