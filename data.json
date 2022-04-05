@@ -5,7 +5,7 @@
         "anemo" : ["Xiao","Venti","Sucrose","Jean","Kazuha","Sayu"],
         "feu" : ["Xiangling","Klee","Diluc","Bennett","Amber","Xinyan","Hu Tao","Yanfei","Yoimiya","Thomas"],
         "glace" : ["Chongyun","Kaeya","Qiqi","Diona","Ganyu","Eula","Ayaka","Aloy","Shenhe","Rosalia"],
-        "eau" : ["Xingqiu","Barbara","Mona","Tartaglia","Kokomi"]
+        "eau" : ["Xingqiu","Barbara","Mona","Tartaglia","Kokomi","Ayato"]
         
     },
     "Elevation" : {
@@ -201,6 +201,19 @@
                 "papier" : "ephemere",
                 "mob_drop":"spectrale",
                 "boss_eb" : "i_481"
+            }
+        },
+        "Ayato" : {
+            "perso" : {
+                "pierre" : "lazurite_varunada",
+                "mob_drop" : "garde",
+                "boss" : "i_213",
+                "fleur": "i_678"
+            },
+            "comp" : {
+                "papier" : "elegance",
+                "mob_drop": "garde",
+                "boss_eb" : "i_483"
             }
         },
         "Razor" : {
@@ -1175,6 +1188,53 @@
                     "PV %","Recharge d'énergie %","ATQ %","Maitrise élémentaire"
                 ],
                 "data-lore":"Bonus de soins : 35.9%"
+            }
+        ],
+        "Ayato":[
+            {
+                "name":"Fleur d'aromesprit",
+                "id":15024,
+                "data-title":"Échos d'une offrande",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Feuille de jade",
+                "id":15024,
+                "data-title":"Échos d'une offrande",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Symbole de félicitation",
+                "id":15024,
+                "data-title":"Échos d'une offrande",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Calice des sources",
+                "id":15024,
+                "data-title":"Échos d'une offrande",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de DGT Hydro : 46.6%"
+            },
+            {
+                "name":"Anneaux de fluidité",
+                "id":15024,
+                "data-title":"Échos d'une offrande",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
             }
         ],
         "Razor":[
