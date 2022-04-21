@@ -1,11 +1,11 @@
 {
     "elements" : {
         "geo" :["Noelle","Ningguang","Zhongli","Albedo","Gorou","Itto","Yun-Jin"],
-        "electro" : ["Razor","Fischl","Beidou","Lisa","Keqing","Baal","Sara","Yae"],
+        "electro" : ["Razor","Fischl","Beidou","Lisa","Keqing","Baal","Sara","Yae","Shinobu"],
         "anemo" : ["Xiao","Venti","Sucrose","Jean","Kazuha","Sayu"],
         "feu" : ["Xiangling","Klee","Diluc","Bennett","Amber","Xinyan","Hu Tao","Yanfei","Yoimiya","Thomas"],
         "glace" : ["Chongyun","Kaeya","Qiqi","Diona","Ganyu","Eula","Ayaka","Aloy","Shenhe","Rosalia"],
-        "eau" : ["Xingqiu","Barbara","Mona","Tartaglia","Kokomi","Ayato"]
+        "eau" : ["Xingqiu","Barbara","Mona","Tartaglia","Kokomi","Ayato","Yelan"]
         
     },
     "Elevation" : {
@@ -216,6 +216,19 @@
                 "boss_eb" : "i_483"
             }
         },
+        "Yelan" : {
+            "perso" : {
+                "pierre" : "lazurite_varunada",
+                "mob_drop" : "insigne",
+                "boss" : "i_486",
+                "fleur": "i_663"
+            },
+            "comp" : {
+                "papier" : "prosperiter",
+                "mob_drop": "insigne",
+                "boss_eb" : "i_472"
+            }
+        },
         "Razor" : {
             "perso" : {
                 "pierre" : "amethyste_vajrada",
@@ -318,6 +331,19 @@
                 "papier" : "lumiere",
                 "mob_drop":"garde",
                 "boss_eb" : "i_485"
+            }
+        },
+        "Shinobu" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "spectrale",
+                "boss" : "i_486",
+                "fleur": "i_681"
+            },
+            "comp" : {
+                "papier" : "elegance",
+                "mob_drop":"spectrale",
+                "boss_eb" : "i_484"
             }
         },
         "Xiangling" : {
@@ -1237,6 +1263,53 @@
                 "data-lore":"Taux CRIT : 31.1%"
             }
         ],
+        "Yelan":[
+            {
+                "name":"",
+                "id":15000,
+                "data-title":"",
+                "data":[
+                    ""
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15000,
+                "data-title":"",
+                "data":[
+                    ""
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15000,
+                "data-title":"",
+                "data":[
+                    ""
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15000,
+                "data-title":"",
+                "data":[
+                    ""
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15000,
+                "data-title":"",
+                "data":[
+                    ""
+                ],
+                "data-lore":""
+            }
+        ],
         "Razor":[
             {
                 "name":"Fleur de fer ensanglantée",
@@ -1611,6 +1684,53 @@
                     "DGT CRIT %","ATQ %","Recharge d'énergie %","Maitrise élémentaire"
                 ],
                 "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Shinobu":[
+            {
+                "name":"",
+                "id":15000,
+                "data-title":"",
+                "data":[
+                    ""
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15000,
+                "data-title":"",
+                "data":[
+                    ""
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15000,
+                "data-title":"",
+                "data":[
+                    ""
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15000,
+                "data-title":"",
+                "data":[
+                    ""
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15000,
+                "data-title":"",
+                "data":[
+                    ""
+                ],
+                "data-lore":""
             }
         ],
         "Xiangling":[
