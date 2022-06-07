@@ -1265,49 +1265,49 @@
         ],
         "Yelan":[
             {
-                "name":"",
-                "id":15000,
-                "data-title":"",
+                "name":"Tsuba magnifique",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
                 "data":[
-                    ""
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","PV %"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 4780"
             },
             {
-                "name":"",
-                "id":15000,
-                "data-title":"",
+                "name":"Plume brisée",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
                 "data":[
-                    ""
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","PV %"
                 ],
-                "data-lore":""
+                "data-lore":"ATQ : 311"
             },
             {
-                "name":"",
-                "id":15000,
-                "data-title":"",
+                "name":"Inro de la tempête",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
                 "data":[
-                    ""
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","PV"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 46.6%"
             },
             {
-                "name":"",
-                "id":15000,
-                "data-title":"",
+                "name":"Gourde pourpre",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
                 "data":[
-                    ""
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","PV %"
                 ],
-                "data-lore":""
+                "data-lore":"Bonus de DGT Hydro : 46.6%"
             },
             {
-                "name":"",
-                "id":15000,
-                "data-title":"",
+                "name":"Kabuto orné",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
                 "data":[
-                    ""
+                    "PV %","DGT CRIT %","Recharge d'énergie %","PV"
                 ],
-                "data-lore":""
+                "data-lore":"Taux CRIT : 31.1%"
             }
         ],
         "Razor":[
