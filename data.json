@@ -1688,49 +1688,49 @@
         ],
         "Shinobu":[
             {
-                "name":"",
-                "id":15000,
-                "data-title":"",
+                "name":"Fleur honorifique",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
                 "data":[
-                    ""
+                    "Recharge d'énergie %","Taux CRIT %","PV %","Maitrise élémentaire"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume de guerre du Commandant",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","PV %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
             },
             {
                 "name":"",
-                "id":15000,
-                "data-title":"",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
                 "data":[
-                    ""
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","Maitrise élémentaire"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 46.6%"
             },
             {
                 "name":"",
-                "id":15000,
-                "data-title":"",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
                 "data":[
-                    ""
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","Maitrise élémentaire"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 46.6%"
             },
             {
                 "name":"",
-                "id":15000,
-                "data-title":"",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
                 "data":[
-                    ""
+                    "Recharge d'énergie %","Taux CRIT %","PV %","Maitrise élémentaire"
                 ],
-                "data-lore":""
-            },
-            {
-                "name":"",
-                "id":15000,
-                "data-title":"",
-                "data":[
-                    ""
-                ],
-                "data-lore":""
+                "data-lore":"Bonus de soins : 35.9%"
             }
         ],
         "Xiangling":[
