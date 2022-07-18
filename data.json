@@ -2,7 +2,7 @@
     "elements" : {
         "geo" :["Noelle","Ningguang","Zhongli","Albedo","Gorou","Itto","Yun-Jin"],
         "electro" : ["Razor","Fischl","Beidou","Lisa","Keqing","Baal","Sara","Yae","Shinobu"],
-        "anemo" : ["Xiao","Venti","Sucrose","Jean","Kazuha","Sayu"],
+        "anemo" : ["Xiao","Venti","Sucrose","Jean","Kazuha","Sayu","Heizou"],
         "feu" : ["Xiangling","Klee","Diluc","Bennett","Amber","Xinyan","Hu Tao","Yanfei","Yoimiya","Thomas"],
         "glace" : ["Chongyun","Kaeya","Qiqi","Diona","Ganyu","Eula","Ayaka","Aloy","Shenhe","Rosalia"],
         "eau" : ["Xingqiu","Barbara","Mona","Tartaglia","Kokomi","Ayato","Yelan"]
@@ -136,6 +136,19 @@
                 "papier" : "lumiere",
                 "mob_drop":"nectar",
                 "boss_eb" : "i_472"
+            }
+        },
+        "Heizou" : {
+            "perso" : {
+                "pierre" : "turquoise_vayuda",
+                "mob_drop" : "insigne_p",
+                "boss" : "i_486",
+                "fleur": "i_677"
+            },
+            "comp" : {
+                "papier" : "ephemere",
+                "mob_drop":"insigne_p",
+                "boss_eb" : "i_485"
             }
         },
         "Xingqiu": {
@@ -981,6 +994,53 @@
                 "data-lore":"Taux CRIT : 31.1%"
             }
         ],
+        "Heizou":[
+            {
+                "name":"Souvenir de fleur des champs",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "DGT CRIT %","ATQ %","Taux CRIT %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume de flèche de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "DGT CRIT %","ATQ %","Taux CRIT %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Détermination de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Recharge d'énergie %","Maitrise élémentaire","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Récipient de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Maitrise élémentaire","ATQ %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"Bonus de DGT Anémo : 46.6%"
+            },
+            {
+                "name":"Diadème de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Recharge d'énergie %","ATQ %","Maitrise élémentaire","DGT CRIT %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
         "Xingqiu":[
             {
                 "name":"Broche plaquée",
@@ -1706,7 +1766,7 @@
                 "data-lore":"ATQ : 311"
             },
             {
-                "name":"",
+                "name":"Cadran solaire doré",
                 "id":15017,
                 "data-title":"Ténacité du Millelithe",
                 "data":[
@@ -1715,7 +1775,7 @@
                 "data-lore":"PV : 46.6%"
             },
             {
-                "name":"",
+                "name":"Coupe du serment",
                 "id":15017,
                 "data-title":"Ténacité du Millelithe",
                 "data":[
@@ -1724,7 +1784,7 @@
                 "data-lore":"PV : 46.6%"
             },
             {
-                "name":"",
+                "name":"Ancien heaume de Général",
                 "id":15017,
                 "data-title":"Ténacité du Millelithe",
                 "data":[
