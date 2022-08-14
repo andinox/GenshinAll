@@ -1,12 +1,12 @@
 {
     "elements" : {
         "geo" :["Noelle","Ningguang","Zhongli","Albedo","Gorou","Itto","Yun-Jin"],
-        "electro" : ["Razor","Fischl","Beidou","Lisa","Keqing","Baal","Sara","Yae","Shinobu"],
+        "electro" : ["Razor","Fischl","Beidou","Lisa","Keqing","Baal","Sara","Yae","Shinobu","Dori"],
         "anemo" : ["Xiao","Venti","Sucrose","Jean","Kazuha","Sayu","Heizou"],
         "feu" : ["Xiangling","Klee","Diluc","Bennett","Amber","Xinyan","Hu Tao","Yanfei","Yoimiya","Thomas"],
         "glace" : ["Chongyun","Kaeya","Qiqi","Diona","Ganyu","Eula","Ayaka","Aloy","Shenhe","Rosalia"],
-        "eau" : ["Xingqiu","Barbara","Mona","Tartaglia","Kokomi","Ayato","Yelan"]
-        
+        "eau" : ["Xingqiu","Barbara","Mona","Tartaglia","Kokomi","Ayato","Yelan"],
+        "Dendro" : ["Tighnari","Collei"]
     },
     "Elevation" : {
         "Main" : {
@@ -22,6 +22,7 @@
                 "amethyste_vajrada" : ["i_331","i_332","i_333","i_334"],
                 "jade_shivada": ["i_341","i_342","i_343","i_344"],
                 "topaze_prithiva" : ["i_361","i_362","i_363","i_364"],
+                "emeraude_nagadus" : ["i_371","i_372","i_373","i_374"],
                 "blob" : ["i_21","i_22","i_23"],
                 "spectrale" : ["i_185","i_186","i_187"],
                 "masque" : ["i_31","i_32","i_33"],
@@ -32,7 +33,9 @@
                 "nectar" : ["i_131","i_132","i_133"],
                 "statue" : ["i_151","i_152","i_153"],
                 "garde" : ["i_161","i_162","i_163"],
-                "chaos" : ["i_171","i_172","i_173"]
+                "chaos" : ["i_171","i_172","i_173"],
+                "pollen" : ["i_192","i_193","i_194"],
+                "bandeau" : ["i_196","i_197","i_198"]
             },
             "comp" : {
                 "paper" : [9,63,114],
@@ -47,6 +50,11 @@
                 "or" : ["i_431","i_432","i_433"],
                 "prosperiter": ["i_441","i_442","i_443"],
                 "resistance": ["i_451","i_452","i_453"],
+
+                "3fleurs": ["i_104329","i_104330","i_104331"],
+                "lotus": ["i_104332","i_104333","i_104334"],
+                "nenuphardenao": ["i_104335","i_104336","i_104337"],
+
                 "blob" : ["i_21","i_22","i_23"],
                 "spectrale" : ["i_185","i_186","i_187"],
                 "masque" : ["i_31","i_32","i_33"],
@@ -57,7 +65,9 @@
                 "nectar" : ["i_131","i_132","i_133"],
                 "statue" : ["i_151","i_152","i_153"],
                 "garde" : ["i_161","i_162","i_163"],
-                "chaos" : ["i_171","i_172","i_173"]
+                "chaos" : ["i_171","i_172","i_173"],
+                "pollen" : ["i_192","i_193","i_194"],
+                "bandeau" : ["i_196","i_197","i_198"]
             }
         },
         "Xiao" : {
@@ -357,6 +367,19 @@
                 "papier" : "elegance",
                 "mob_drop":"spectrale",
                 "boss_eb" : "i_484"
+            }
+        },
+        "Dori" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "bandeau",
+                "boss" : "i_488",
+                "fleur": "i_691"
+            },
+            "comp" : {
+                "papier" : "lotus",
+                "mob_drop":"bandeau",
+                "boss_eb" : "i_471"
             }
         },
         "Xiangling" : {
@@ -708,6 +731,32 @@
                 "papier" : "prosperiter",
                 "mob_drop":"nectar",
                 "boss_eb" : "i_482"
+            }
+        },
+        "Tighnari" : {
+            "perso" : {
+                "pierre" : "emeraude_nagadus",
+                "mob_drop": "pollen",
+                "boss" : "i_487",
+                "fleur": "i_689"
+            },
+            "comp" : {
+                "papier" : "3fleurs",
+                "mob_drop":"pollen",
+                "boss_eb" : "i_485"
+            }
+        },
+        "Collei" : {
+            "perso" : {
+                "pierre" : "emeraude_nagadus",
+                "mob_drop": "pointe",
+                "boss" : "i_487",
+                "fleur": "i_690"
+            },
+            "comp" : {
+                "papier" : "nenuphardenao",
+                "mob_drop":"pointe",
+                "boss_eb" : "i_484"
             }
         }
     },
@@ -3060,6 +3109,147 @@
                     "Recharge d'énergie %","DGT CRIT %","ATQ %","ATQ"
                 ],
                 "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Tighnari":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            }
+        ],
+        "Collei":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            }
+        ],
+        "Dori":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
             }
         ]
     }
