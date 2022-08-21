@@ -6,7 +6,7 @@
         "feu" : ["Xiangling","Klee","Diluc","Bennett","Amber","Xinyan","Hu Tao","Yanfei","Yoimiya","Thomas"],
         "glace" : ["Chongyun","Kaeya","Qiqi","Diona","Ganyu","Eula","Ayaka","Aloy","Shenhe","Rosalia"],
         "eau" : ["Xingqiu","Barbara","Mona","Tartaglia","Kokomi","Ayato","Yelan"],
-        "Dendro" : ["Tighnari","Collei"]
+        "dendro" : ["Tighnari","Collei"]
     },
     "Elevation" : {
         "Main" : {
