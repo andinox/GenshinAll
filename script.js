@@ -143,7 +143,7 @@ function perso_display() {
 
 
 function getElement(pseudo) {
-    let element = ["geo","electro","anemo","feu","glace","eau"];
+    let element = ["geo","electro","anemo","feu","glace","eau","dendro"];
     for (let i = 0; i < element.length ; i++) {
         for (let u = 0; u < data["elements"][element[i]].length ; u++) {
             if (data["elements"][element[i]][u] == pseudo) {
