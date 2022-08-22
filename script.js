@@ -116,13 +116,13 @@ function perso_display() {
         persos[i].setAttribute("src",`https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_${name}.png`)
     }
     const elements = document.getElementsByClassName("element");
-    for (let l = 0; l < 6; l++) {
+    for (let l = 0; l < 7; l++) {
         elements[l].addEventListener("click", function(event) {
             let a = false;
             if (elements[l].classList.contains(actived)) {
                 a = true;
             }
-            for (let o = 0; o < 6; o++) {
+            for (let o = 0; o < 7; o++) {
                 if (elements[o].classList.contains(actived)) {
                     elements[o].classList.remove(actived);
                 }
