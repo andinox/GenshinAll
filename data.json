@@ -15,6 +15,7 @@
                 "nb_mob_drop" : [18,30,36],
                 "nb_boss" : 46,
                 "nb_fleurs" : 168,
+
                 "turquoise_vayuda" : ["i_351","i_352","i_353","i_354"],
                 "diamant_scintillant" : ["i_301","i_302","i_303","i_304"],
                 "agate_agnidus" : ["i_311","i_312","i_313","i_314"],
@@ -23,6 +24,7 @@
                 "jade_shivada": ["i_341","i_342","i_343","i_344"],
                 "topaze_prithiva" : ["i_361","i_362","i_363","i_364"],
                 "emeraude_nagadus" : ["i_371","i_372","i_373","i_374"],
+
                 "blob" : ["i_21","i_22","i_23"],
                 "spectrale" : ["i_185","i_186","i_187"],
                 "masque" : ["i_31","i_32","i_33"],
@@ -41,6 +43,7 @@
                 "paper" : [9,63,114],
                 "boss_eb": 18,
                 "mob": [18,66,93],
+
                 "poesie": ["i_401","i_402","i_403"],
                 "ephemere" : ["i_406","i_407","i_408"],
                 "diligence" : ["i_411","i_412","i_413"],
@@ -50,10 +53,9 @@
                 "or" : ["i_431","i_432","i_433"],
                 "prosperiter": ["i_441","i_442","i_443"],
                 "resistance": ["i_451","i_452","i_453"],
-
-                "3fleurs": ["i_104329","i_104330","i_104331"],
-                "lotus": ["i_104332","i_104333","i_104334"],
-                "nenuphardenao": ["i_104335","i_104336","i_104337"],
+                "admonestation": ["i_104329","i_104330","i_104331"],
+                "ingénuité": ["i_104332","i_104333","i_104334"],
+                "usage": ["i_104335","i_104336","i_104337"],
 
                 "blob" : ["i_21","i_22","i_23"],
                 "spectrale" : ["i_185","i_186","i_187"],
@@ -377,7 +379,7 @@
                 "fleur": "i_691"
             },
             "comp" : {
-                "papier" : "lotus",
+                "papier" : "ingénuité",
                 "mob_drop":"bandeau",
                 "boss_eb" : "i_471"
             }
@@ -741,7 +743,7 @@
                 "fleur": "i_689"
             },
             "comp" : {
-                "papier" : "3fleurs",
+                "papier" : "admonestation",
                 "mob_drop":"pollen",
                 "boss_eb" : "i_485"
             }
@@ -754,7 +756,7 @@
                 "fleur": "i_690"
             },
             "comp" : {
-                "papier" : "nenuphardenao",
+                "papier" : "usage",
                 "mob_drop":"pointe",
                 "boss_eb" : "i_484"
             }
@@ -3113,96 +3115,96 @@
         ],
         "Tighnari":[
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Aube de l'orchestre",
+                "id":15003,
+                "data-title":"Bande vagabonde",
                 "data":[
-                    
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","ATQ %"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 4780"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Plume de flèche du lyriste",
+                "id":15003,
+                "data-title":"Bande vagabonde",
                 "data":[
-                    
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","ATQ %"
                 ],
-                "data-lore":""
+                "data-lore":"ATQ : 311"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Tombée du rideau",
+                "id":15003,
+                "data-title":"Bande vagabonde",
                 "data":[
-                    
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","Recharge d'énergie %"
                 ],
-                "data-lore":""
+                "data-lore":"ATQ : 46.6%"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Gourde à cordes du ménestrel",
+                "id":15003,
+                "data-title":"Bande vagabonde",
                 "data":[
-                    
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","ATQ %"
                 ],
-                "data-lore":""
+                "data-lore":"Bonus de DGT Dendro : 46.6%"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Haut-de-forme du chef d'orchestre",
+                "id":15003,
+                "data-title":"Bande vagabonde",
                 "data":[
-                    
+                    "DGT CRIT %","Maitrise élémentaire","ATQ %","Recharge d'énergie %"
                 ],
-                "data-lore":""
+                "data-lore":"Taux CRIT : 31.1%"
             }
         ],
         "Collei":[
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Voyageur du labyrinthe",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
                 "data":[
-                    
+                    "Recharge d'énergie %","Maitrise élémentaire","Taux CRIT %","DGT CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 4780"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Érudit des lianes",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
                 "data":[
-                    
+                    "Recharge d'énergie %","Maitrise élémentaire","Taux CRIT %","DGT CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"ATQ : 311"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Période de perspicacité",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
                 "data":[
-                    
+                    "Recharge d'énergie %","Maitrise élémentaire","Taux CRIT %","DGT CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"ATQ : 46.6%"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Lampe des perdus",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
                 "data":[
-                    
+                    "Recharge d'énergie %","Maitrise élémentaire","Taux CRIT %","DGT CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"Bonus de DGT Dendro : 46.6%"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Couronne de lauriers",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
                 "data":[
-                    
+                    "Recharge d'énergie %","Maitrise élémentaire","ATQ %","DGT CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"Taux CRIT : 31.1%"
             }
         ],
         "Dori":[
