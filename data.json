@@ -1,11 +1,11 @@
 {
     "elements" : {
         "geo" :["Noelle","Ningguang","Zhongli","Albedo","Gorou","Itto","Yun-Jin"],
-        "electro" : ["Razor","Fischl","Beidou","Lisa","Keqing","Baal","Sara","Yae","Shinobu","Dori"],
+        "electro" : ["Razor","Fischl","Beidou","Lisa","Keqing","Baal","Sara","Yae","Shinobu","Dori","Cyno"],
         "anemo" : ["Xiao","Venti","Sucrose","Jean","Kazuha","Sayu","Heizou"],
         "feu" : ["Xiangling","Klee","Diluc","Bennett","Amber","Xinyan","Hu Tao","Yanfei","Yoimiya","Thomas"],
         "glace" : ["Chongyun","Kaeya","Qiqi","Diona","Ganyu","Eula","Ayaka","Aloy","Shenhe","Rosalia"],
-        "eau" : ["Xingqiu","Barbara","Mona","Tartaglia","Kokomi","Ayato","Yelan"],
+        "eau" : ["Xingqiu","Barbara","Mona","Tartaglia","Kokomi","Ayato","Yelan","Nilou","Candace"],
         "dendro" : ["Tighnari","Collei"]
     },
     "Elevation" : {
@@ -254,6 +254,32 @@
                 "boss_eb" : "i_472"
             }
         },
+        "Nilou" : {
+            "perso" : {
+                "pierre" : "lazurite_varunada",
+                "mob_drop" : "pollen",
+                "boss" : "i_113038",
+                "fleur": "i_101214"
+            },
+            "comp" : {
+                "papier" : "usage",
+                "mob_drop": "pollen",
+                "boss_eb" : "i_484"
+            }
+        },
+        "Candace" : {
+            "perso" : {
+                "pierre" : "lazurite_varunada",
+                "mob_drop" : "bandeau",
+                "boss" : "i_113039",
+                "fleur": "i_101220"
+            },
+            "comp" : {
+                "papier" : "admonestation",
+                "mob_drop": "bandeau",
+                "boss_eb" : "i_484"
+            }
+        },
         "Razor" : {
             "perso" : {
                 "pierre" : "amethyste_vajrada",
@@ -382,6 +408,19 @@
                 "papier" : "ingénuité",
                 "mob_drop":"bandeau",
                 "boss_eb" : "i_471"
+            }
+        },
+        "Cyno" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "parchemin",
+                "boss" : "i_488",
+                "fleur": "i_101225"
+            },
+            "comp" : {
+                "papier" : "admonestation",
+                "mob_drop":"parchemin",
+                "boss_eb" : "i_483"
             }
         },
         "Xiangling" : {
@@ -1421,6 +1460,100 @@
                 "data-lore":"Taux CRIT : 31.1%"
             }
         ],
+        "Nilou":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            }
+        ],
+        "Candace":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            }
+        ],
         "Razor":[
             {
                 "name":"Fleur de fer ensanglantée",
@@ -1842,6 +1975,100 @@
                     "Recharge d'énergie %","Taux CRIT %","PV %","Maitrise élémentaire"
                 ],
                 "data-lore":"Bonus de soins : 35.9%"
+            }
+        ],
+        "Dori":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            }
+        ],
+        "Cyno":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
             }
         ],
         "Xiangling":[
@@ -3205,53 +3432,6 @@
                     "Recharge d'énergie %","Maitrise élémentaire","ATQ %","DGT CRIT %"
                 ],
                 "data-lore":"Taux CRIT : 31.1%"
-            }
-        ],
-        "Dori":[
-            {
-                "name":"",
-                "id":15004,
-                "data-title":"",
-                "data":[
-                    
-                ],
-                "data-lore":""
-            },
-            {
-                "name":"",
-                "id":15004,
-                "data-title":"",
-                "data":[
-                    
-                ],
-                "data-lore":""
-            },
-            {
-                "name":"",
-                "id":15004,
-                "data-title":"",
-                "data":[
-                    
-                ],
-                "data-lore":""
-            },
-            {
-                "name":"",
-                "id":15004,
-                "data-title":"",
-                "data":[
-                    
-                ],
-                "data-lore":""
-            },
-            {
-                "name":"",
-                "id":15004,
-                "data-title":"",
-                "data":[
-                    
-                ],
-                "data-lore":""
             }
         ]
     }
