@@ -1979,49 +1979,49 @@
         ],
         "Dori":[
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Fleur du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
                 "data":[
-                    
+                    "PV %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 4780"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Plume du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
                 "data":[
-                    
+                    "PV %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"ATQ : 311"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
                 "data":[
-                    
+                    "PV %","ATQ %","Taux CRIT %","DGT CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"Recharge d'énergie : 51.8%"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
                 "data":[
-                    
+                    "ATQ %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 46.6%"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
                 "data":[
-                    
+                    "PV %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"Bonus de soins : 35.9%"
             }
         ],
         "Cyno":[
