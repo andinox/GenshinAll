@@ -1509,49 +1509,49 @@
         ],
         "Candace":[
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Fleur du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
                 "data":[
-                    
+                    "PV %","Recharge d'énergie %","ATQ %","Taux CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 4780"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Plume du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
                 "data":[
-                    
+                    "PV %","Recharge d'énergie %","ATQ %","Taux CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"ATQ : 311"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
                 "data":[
-                    
+                    "DGT CRIT %","Recharge d'énergie %","ATQ %","Taux CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 46.6%"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
                 "data":[
-                    
+                    "DGT CRIT %","Recharge d'énergie %","ATQ %","Taux CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"Bonus de DGT Hydro : 46.6%"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
                 "data":[
-                    
+                    "PV %","Recharge d'énergie %","ATQ %","DGT CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"Taux CRIT : 31.1%"
             }
         ],
         "Razor":[
@@ -2026,49 +2026,49 @@
         ],
         "Cyno":[
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Nostalgie du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
                 "data":[
-                    
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","ATQ %"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 4780"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Destination de Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
                 "data":[
-                    
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","ATQ %"
                 ],
-                "data-lore":""
+                "data-lore":"ATQ : 311"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Sablier de tonnerre",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
                 "data":[
-                    
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","Recharge d'énergie %"
                 ],
-                "data-lore":""
+                "data-lore":"ATQ : 46.6%"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Présage de tombée du tonnerre",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
                 "data":[
-                    
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","ATQ %"
                 ],
-                "data-lore":""
+                "data-lore":"Bonus de DGT Électro : 46.6%"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Diadème de l'Invocateur de tonnerre",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
                 "data":[
-                    
+                    "Recharge d'énergie %","DGT CRIT %","Maitrise élémentaire","ATQ %"
                 ],
-                "data-lore":""
+                "data-lore":"Taux CRIT : 31.1%"
             }
         ],
         "Xiangling":[
