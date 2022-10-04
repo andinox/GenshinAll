@@ -4,9 +4,9 @@
         "electro" : ["Razor","Fischl","Beidou","Lisa","Keqing","Baal","Sara","Yae","Shinobu","Dori","Cyno"],
         "anemo" : ["Xiao","Venti","Sucrose","Jean","Kazuha","Sayu","Heizou"],
         "feu" : ["Xiangling","Klee","Diluc","Bennett","Amber","Xinyan","Hu Tao","Yanfei","Yoimiya","Thomas"],
-        "glace" : ["Chongyun","Kaeya","Qiqi","Diona","Ganyu","Eula","Ayaka","Aloy","Shenhe","Rosalia"],
+        "glace" : ["Chongyun","Kaeya","Qiqi","Diona","Ganyu","Eula","Ayaka","Aloy","Shenhe","Rosalia","Layla"],
         "eau" : ["Xingqiu","Barbara","Mona","Tartaglia","Kokomi","Ayato","Yelan","Nilou","Candace"],
-        "dendro" : ["Tighnari","Collei"]
+        "dendro" : ["Tighnari","Collei","Nahida"]
     },
     "Elevation" : {
         "Main" : {
@@ -774,6 +774,19 @@
                 "boss_eb" : "i_482"
             }
         },
+        "Layla" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "parchemin",
+                "boss" : "i_113038",
+                "fleur": "i_689"
+            },
+            "comp" : {
+                "papier" : "ingénuité",
+                "mob_drop":"parchemin",
+                "boss_eb" : "i_209"
+            }
+        },
         "Tighnari" : {
             "perso" : {
                 "pierre" : "emeraude_nagadus",
@@ -798,6 +811,19 @@
                 "papier" : "usage",
                 "mob_drop":"pointe",
                 "boss_eb" : "i_484"
+            }
+        },
+        "Nahida" : {
+            "perso" : {
+                "pierre" : "emeraude_nagadus",
+                "mob_drop": "pollen",
+                "boss" : "i_113040",
+                "fleur": "i_691"
+            },
+            "comp" : {
+                "papier" : "ingénuité",
+                "mob_drop":"pollen",
+                "boss_eb" : "i_209"
             }
         }
     },
@@ -3340,6 +3366,53 @@
                 "data-lore":"Taux CRIT : 31.1%"
             }
         ],
+        "Layla":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            }
+        ],
         "Tighnari":[
             {
                 "name":"Aube de l'orchestre",
@@ -3432,6 +3505,53 @@
                     "Recharge d'énergie %","Maitrise élémentaire","ATQ %","DGT CRIT %"
                 ],
                 "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Nahida":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
             }
         ]
     }
