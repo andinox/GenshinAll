@@ -1488,49 +1488,49 @@
         ],
         "Nilou":[
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Fleur honorifique",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
                 "data":[
-                    
+                    "DGT CRIT %","Taux CRIT %","PV %","Maitrise élémentaire"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 4780"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Plume de guerre du Commandant",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
                 "data":[
-                    
+                    "DGT CRIT %","Taux CRIT %","PV %","Maitrise élémentaire"
                 ],
-                "data-lore":""
+                "data-lore":"ATQ : 311"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Tombée du rideau",
+                "id":15003,
+                "data-title":"Bande vagabonde",
                 "data":[
-                    
+                    "DGT CRIT %","Taux CRIT %","Recharge d'énergie %","Maitrise élémentaire"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 46.6%"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Gourde à cordes du ménestrel",
+                "id":15003,
+                "data-title":"Bande vagabonde",
                 "data":[
-                    
+                    "DGT CRIT %","Taux CRIT %","Recharge d'énergie %","Maitrise élémentaire"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 46.6%"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Haut-de-forme du chef d'orchestre",
+                "id":15003,
+                "data-title":"Bande vagabonde",
                 "data":[
-                    
+                    "DGT CRIT %","Taux CRIT %","Recharge d'énergie %","Maitrise élémentaire"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 46.6%"
             }
         ],
         "Candace":[
@@ -2920,7 +2920,7 @@
                 "id":15003,
                 "data-title":"Bande vagabonde",
                 "data":[
-                    "DGT CRIT %","Taux CRIT %","Maitrise élémentaire","Maitrise élémentaire"
+                    "DGT CRIT %","Taux CRIT %","Recharge d'énergie %","Maitrise élémentaire"
                 ],
                 "data-lore":"ATQ : 46.6%"
             },
