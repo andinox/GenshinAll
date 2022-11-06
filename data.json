@@ -2,7 +2,7 @@
     "elements" : {
         "geo" :["Noelle","Ningguang","Zhongli","Albedo","Gorou","Itto","Yun-Jin"],
         "electro" : ["Razor","Fischl","Beidou","Lisa","Keqing","Baal","Sara","Yae","Shinobu","Dori","Cyno"],
-        "anemo" : ["Xiao","Venti","Sucrose","Jean","Kazuha","Sayu","Heizou"],
+        "anemo" : ["Xiao","Venti","Sucrose","Jean","Kazuha","Sayu","Heizou","LeNomade","Faruzan"],
         "feu" : ["Xiangling","Klee","Diluc","Bennett","Amber","Xinyan","Hu Tao","Yanfei","Yoimiya","Thomas"],
         "glace" : ["Chongyun","Kaeya","Qiqi","Diona","Ganyu","Eula","Ayaka","Aloy","Shenhe","Rosalia","Layla"],
         "eau" : ["Xingqiu","Barbara","Mona","Tartaglia","Kokomi","Ayato","Yelan","Nilou","Candace"],
@@ -161,6 +161,32 @@
                 "papier" : "ephemere",
                 "mob_drop":"insigne_p",
                 "boss_eb" : "i_485"
+            }
+        },
+        "LeNomade" : {
+            "perso" : {
+                "pierre" : "turquoise_vayuda",
+                "mob_drop" : "garde",
+                "boss" : "i_113038",
+                "fleur": "i_690"
+            },
+            "comp" : {
+                "papier" : "usage",
+                "mob_drop":"garde",
+                "boss_eb" : "i_113043"
+            }
+        },
+        "Faruzan" : {
+            "perso" : {
+                "pierre" : "turquoise_vayuda",
+                "mob_drop" : "bandeau",
+                "boss" : "i_113039",
+                "fleur": "i_101220"
+            },
+            "comp" : {
+                "papier" : "admonestation",
+                "mob_drop":"bandeau",
+                "boss_eb" : "i_113041"
             }
         },
         "Xingqiu": {
@@ -784,7 +810,7 @@
             "comp" : {
                 "papier" : "ingénuité",
                 "mob_drop":"parchemin",
-                "boss_eb" : "i_209"
+                "boss_eb" : "i_113042"
             }
         },
         "Tighnari" : {
@@ -823,7 +849,7 @@
             "comp" : {
                 "papier" : "ingénuité",
                 "mob_drop":"pollen",
-                "boss_eb" : "i_209"
+                "boss_eb" : "i_113041"
             }
         }
     },
@@ -1155,6 +1181,100 @@
                     "Recharge d'énergie %","ATQ %","Maitrise élémentaire","DGT CRIT %"
                 ],
                 "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "LeNomade":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            }
+        ],
+        "Faruzan":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
             }
         ],
         "Xingqiu":[
@@ -1980,9 +2100,9 @@
                 "id":15017,
                 "data-title":"Ténacité du Millelithe",
                 "data":[
-                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","Maitrise élémentaire"
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","PV %"
                 ],
-                "data-lore":"PV : 46.6%"
+                "data-lore":"Maîtrise élémentaire : 187"
             },
             {
                 "name":"Coupe du serment",
@@ -3509,49 +3629,49 @@
         ],
         "Nahida":[
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Voyageur du labyrinthe",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
                 "data":[
-                    
+                    "Recharge d'énergie %","Maitrise élémentaire","Taux CRIT %","DGT CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 4780"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Érudit des lianes",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
                 "data":[
-                    
+                    "Recharge d'énergie %","Maitrise élémentaire","Taux CRIT %","DGT CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"ATQ : 311"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Période de perspicacité",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
                 "data":[
-                    
+                    "Recharge d'énergie %","ATQ %","Taux CRIT %","DGT CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"Maîtrise élémentaire : 187"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Lampe des perdus",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
                 "data":[
-                    
+                    "Recharge d'énergie %","ATQ %","Taux CRIT %","DGT CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"Maîtrise élémentaire : 187"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Couronne de lauriers",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
                 "data":[
-                    
+                    "Recharge d'énergie %","ATQ %","Taux CRIT %","DGT CRIT %"
                 ],
-                "data-lore":""
+                "data-lore":"Maîtrise élémentaire : 187"
             }
         ]
     }
