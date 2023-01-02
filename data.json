@@ -2,7 +2,7 @@
     "elements" : {
         "geo" :["Noelle","Ningguang","Zhongli","Albedo","Gorou","Itto","Yun-Jin"],
         "electro" : ["Razor","Fischl","Beidou","Lisa","Keqing","Baal","Sara","Yae","Shinobu","Dori","Cyno"],
-        "anemo" : ["Xiao","Venti","Sucrose","Jean","Kazuha","Sayu","Heizou","LeNomade","Faruzan"],
+        "anemo" : ["Xiao","Venti","Sucrose","Jean","Kazuha","Sayu","Heizou","Nomade","Faruzan"],
         "feu" : ["Xiangling","Klee","Diluc","Bennett","Amber","Xinyan","Hu Tao","Yanfei","Yoimiya","Thomas"],
         "glace" : ["Chongyun","Kaeya","Qiqi","Diona","Ganyu","Eula","Ayaka","Aloy","Shenhe","Rosalia","Layla"],
         "eau" : ["Xingqiu","Barbara","Mona","Tartaglia","Kokomi","Ayato","Yelan","Nilou","Candace"],
@@ -163,7 +163,7 @@
                 "boss_eb" : "i_485"
             }
         },
-        "LeNomade" : {
+        "Nomade" : {
             "perso" : {
                 "pierre" : "turquoise_vayuda",
                 "mob_drop" : "garde",
@@ -1183,7 +1183,7 @@
                 "data-lore":"Taux CRIT : 31.1%"
             }
         ],
-        "LeNomade":[
+        "Nomade":[
             {
                 "name":"",
                 "id":15004,
@@ -3488,49 +3488,49 @@
         ],
         "Layla":[
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Fleur honorifique",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
                 "data":[
-                    
+                    "Recharge d'énergie %","Taux CRIT %","PV %","ATQ %"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 4780"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Plume de guerre du Commandant",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
                 "data":[
-                    
+                    "Recharge d'énergie %","Taux CRIT %","PV %","ATQ %"
                 ],
-                "data-lore":""
+                "data-lore":"ATQ : 311"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Cadran solaire doré",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
                 "data":[
-                    
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","ATQ %"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 46.6%"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Coupe du serment",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
                 "data":[
-                    
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","ATQ %"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 46.6%"
             },
             {
-                "name":"",
-                "id":15004,
-                "data-title":"",
+                "name":"Ancien heaume de Général",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
                 "data":[
-                    
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","ATQ %"
                 ],
-                "data-lore":""
+                "data-lore":"PV : 46.6%"
             }
         ],
         "Tighnari":[
