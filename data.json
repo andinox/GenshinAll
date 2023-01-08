@@ -6,7 +6,7 @@
         "feu" : ["Xiangling","Klee","Diluc","Bennett","Amber","Xinyan","Hu Tao","Yanfei","Yoimiya","Thomas"],
         "glace" : ["Chongyun","Kaeya","Qiqi","Diona","Ganyu","Eula","Ayaka","Aloy","Shenhe","Rosalia","Layla"],
         "eau" : ["Xingqiu","Barbara","Mona","Tartaglia","Kokomi","Ayato","Yelan","Nilou","Candace"],
-        "dendro" : ["Tighnari","Collei","Nahida"]
+        "dendro" : ["Tighnari","Collei","Nahida","Yaoyao","Alhaitham"]
     },
     "Elevation" : {
         "Main" : {
@@ -850,6 +850,32 @@
                 "papier" : "ingénuité",
                 "mob_drop":"pollen",
                 "boss_eb" : "i_113041"
+            }
+        },
+        "Yaoyao" : {
+            "perso" : {
+                "pierre" : "emeraude_nagadus",
+                "mob_drop": "blob",
+                "boss" : "i_113040",
+                "fleur": "i_605"
+            },
+            "comp" : {
+                "papier" : "diligence",
+                "mob_drop":"blob",
+                "boss_eb" : "i_113043"
+            }
+        },
+        "Alhaitham" : {
+            "perso" : {
+                "pierre" : "emeraude_nagadus",
+                "mob_drop": "bandeau",
+                "boss" : "i_113044",
+                "fleur": "i_101222"
+            },
+            "comp" : {
+                "papier" : "ingénuité",
+                "mob_drop":"bandeau",
+                "boss_eb" : "i_113042"
             }
         }
     },
@@ -3672,6 +3698,99 @@
                     "Recharge d'énergie %","ATQ %","Taux CRIT %","DGT CRIT %"
                 ],
                 "data-lore":"Maîtrise élémentaire : 187"
+            }
+        ],
+        "Yaoyao":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            }
+        ],"Alhaitham":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
             }
         ]
     }
